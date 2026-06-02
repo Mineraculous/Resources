@@ -1,0 +1,37 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "item_stealing_and_breaking",
+  "description": "book.mineraculous.wiki.item_stealing_and_breaking.breaking.description",
+  "hide_while_locked": false,
+  "icon": {
+    "components": {
+      "minecraft:damage": 431
+    },
+    "item": "minecraft:elytra"
+  },
+  "name": "book.mineraculous.wiki.item_stealing_and_breaking.breaking.name",
+  "pages": [
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "components": {
+          "minecraft:damage": 1,
+          "minecraft:max_damage": 2
+        },
+        "count": 1,
+        "item": "minecraft:obsidian"
+      },
+      "text": "book.mineraculous.wiki.item_stealing_and_breaking.breaking.breaking.text",
+      "title": "book.mineraculous.wiki.item_stealing_and_breaking.breaking.breaking.title"
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 1,
+  "x": 0,
+  "y": 0
+}

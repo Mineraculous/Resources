@@ -1,0 +1,92 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "kamikotizations",
+  "description": "book.mineraculous.wiki.kamikotizations.kamikotizations_general.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "mineraculous:kamikotization_mask"
+  },
+  "name": "book.mineraculous.wiki.kamikotizations.kamikotizations_general.name",
+  "pages": [
+    {
+      "type": "modonomicon:image",
+      "anchor": "",
+      "border": true,
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "images": [
+        "mineraculous:textures/modonomicon/wiki/kamikotizations/general/receiving.png"
+      ],
+      "text": "book.mineraculous.wiki.kamikotizations.kamikotizations_general.receiving.text",
+      "title": "book.mineraculous.wiki.kamikotizations.kamikotizations_general.receiving.title",
+      "use_legacy_rendering": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.mineraculous.wiki.kamikotizations.kamikotizations_general.rejecting.text",
+      "title": "book.mineraculous.wiki.kamikotizations.kamikotizations_general.rejecting.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:image",
+      "anchor": "",
+      "border": true,
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "images": [
+        "mineraculous:textures/modonomicon/wiki/kamikotizations/general/revoking.png"
+      ],
+      "text": "book.mineraculous.wiki.kamikotizations.kamikotizations_general.revoking.text",
+      "title": "book.mineraculous.wiki.kamikotizations.kamikotizations_general.revoking.title",
+      "use_legacy_rendering": false
+    },
+    {
+      "type": "modonomicon:image",
+      "anchor": "",
+      "border": true,
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "images": [
+        "mineraculous:textures/modonomicon/wiki/kamikotizations/general/replication.png"
+      ],
+      "text": "book.mineraculous.wiki.kamikotizations.kamikotizations_general.replication.text",
+      "title": "book.mineraculous.wiki.kamikotizations.kamikotizations_general.replication.title",
+      "use_legacy_rendering": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.mineraculous.wiki.kamikotizations.kamikotizations_general.using_tool.text",
+      "title": "book.mineraculous.wiki.kamikotizations.kamikotizations_general.using_tool.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.mineraculous.wiki.kamikotizations.kamikotizations_general.toggling_buffs.text",
+      "title": "book.mineraculous.wiki.kamikotizations.kamikotizations_general.toggling_buffs.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 0,
+  "x": 0,
+  "y": 0
+}

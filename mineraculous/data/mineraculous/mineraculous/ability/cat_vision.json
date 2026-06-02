@@ -1,0 +1,5 @@
+{
+  "type": "mineraculous:toggleable_special_effects",
+  "effects": "minecraft:night_vision",
+  "shader": "mineraculous:shaders/post/cat_vision.json"
+}

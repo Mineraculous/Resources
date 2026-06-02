@@ -1,0 +1,142 @@
+{
+  "contexts": {
+    "mineraculous:hidden_miraculous": {
+      "mineraculous:geckolib_model": "mineraculous:geo/item/miraculous/ladybug.geo.json",
+      "mineraculous:item_transforms": "mineraculous:models/item/miraculous/ladybug.json",
+      "mineraculous:texture": "mineraculous:textures/item/miraculous/ladybug/hidden.png"
+    },
+    "mineraculous:miraculous_suit": {
+      "mineraculous:geckolib_model": "mineraculous:geo/item/armor/miraculous/ladybug.geo.json",
+      "mineraculous:texture": "mineraculous:textures/entity/equipment/humanoid/miraculous/ladybug.png",
+      "mineraculous:transformation_textures": {
+        "base": "mineraculous:textures/entity/equipment/humanoid/miraculous/ladybug.png",
+        "texture_count": 9
+      }
+    },
+    "mineraculous:miraculous_tool": {
+      "assets": {
+        "mineraculous:flat_texture": "mineraculous:textures/item/ladybug_yoyo.png",
+        "mineraculous:geckolib_animations": "mineraculous:animations/item/ladybug_yoyo.animation.json",
+        "mineraculous:geckolib_model": "mineraculous:geo/item/ladybug_yoyo.geo.json",
+        "mineraculous:item_transforms": "mineraculous:models/item/ladybug_yoyo_in_hand.json",
+        "mineraculous:texture": "mineraculous:textures/item/geo/ladybug_yoyo.png"
+      },
+      "overrides": [
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/ladybug_yoyo_active.png"
+          },
+          "predicate": {
+            "mineraculous:active": 1.0
+          }
+        },
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/ladybug_yoyo_phone.png"
+          },
+          "predicate": {
+            "mineraculous:active": 1.0,
+            "mineraculous:mode": 3.0
+          }
+        },
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/ladybug_yoyo_purify.png"
+          },
+          "predicate": {
+            "mineraculous:active": 1.0,
+            "mineraculous:mode": 4.0
+          }
+        },
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/ladybug_yoyo_spyglass.png",
+            "mineraculous:item_transforms": "mineraculous:models/item/ladybug_yoyo_spyglass.json",
+            "mineraculous:scope_texture": "mineraculous:textures/misc/ladybug_yoyo_spyglass_scope.png",
+            "mineraculous:texture": "mineraculous:textures/item/geo/ladybug_yoyo_spyglass.png"
+          },
+          "predicate": {
+            "mineraculous:active": 1.0,
+            "mineraculous:mode": 5.0
+          }
+        },
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/ladybug_yoyo_active.png"
+          },
+          "predicate": {
+            "mineraculous:active": 1.0,
+            "mineraculous:mode": 6.0
+          }
+        },
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/ladybug_yoyo_thrown.png"
+          },
+          "predicate": {
+            "mineraculous:thrown": 1.0
+          }
+        },
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/ladybug_yoyo_landed.png"
+          },
+          "predicate": {
+            "mineraculous:thrown": 2.0
+          }
+        },
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/ladybug_yoyo_landed.png",
+            "mineraculous:geckolib_animations": "mineraculous:animations/item/ladybug_yoyo_blocking.animation.json",
+            "mineraculous:geckolib_model": "mineraculous:geo/item/ladybug_yoyo_blocking.geo.json",
+            "mineraculous:item_transforms": "mineraculous:models/item/ladybug_yoyo_blocking.json",
+            "mineraculous:texture": "mineraculous:textures/item/geo/ladybug_yoyo_blocking.png"
+          },
+          "predicate": {
+            "minecraft:blocking": 1.0
+          }
+        },
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/ladybug_yoyo_blocking_purify.png",
+            "mineraculous:geckolib_animations": "mineraculous:animations/item/ladybug_yoyo_blocking.animation.json",
+            "mineraculous:geckolib_model": "mineraculous:geo/item/ladybug_yoyo_blocking.geo.json",
+            "mineraculous:item_transforms": "mineraculous:models/item/ladybug_yoyo_blocking.json",
+            "mineraculous:texture": "mineraculous:textures/item/geo/ladybug_yoyo_blocking.png"
+          },
+          "predicate": {
+            "minecraft:blocking": 1.0,
+            "mineraculous:mode": 4.0
+          }
+        },
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/ladybug_yoyo_landed.png",
+            "mineraculous:geckolib_animations": "mineraculous:animations/item/ladybug_yoyo_blocking.animation.json",
+            "mineraculous:geckolib_model": "mineraculous:geo/item/ladybug_yoyo_blocking.geo.json",
+            "mineraculous:item_transforms": "mineraculous:models/item/ladybug_yoyo_blocking.json",
+            "mineraculous:texture": "mineraculous:textures/item/geo/ladybug_yoyo_blocking.png"
+          },
+          "predicate": {
+            "minecraft:blocking": 1.0,
+            "mineraculous:mode": 5.0
+          }
+        }
+      ]
+    },
+    "mineraculous:powered_miraculous": {
+      "mineraculous:countdown_textures": {
+        "base": "mineraculous:textures/item/miraculous/ladybug/powered.png"
+      },
+      "mineraculous:geckolib_model": "mineraculous:geo/item/miraculous/ladybug.geo.json",
+      "mineraculous:item_transforms": "mineraculous:models/item/miraculous/ladybug.json",
+      "mineraculous:texture": "mineraculous:textures/item/miraculous/ladybug/powered.png"
+    }
+  },
+  "metadata": {
+    "mineraculous:valid_miraculouses": [
+      "mineraculous:ladybug"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "missing_pieces=0": {
+      "model": "mineraculous:block/aged_cheese_block"
+    },
+    "missing_pieces=1": {
+      "model": "mineraculous:block/aged_cheese_block_slice1"
+    },
+    "missing_pieces=2": {
+      "model": "mineraculous:block/aged_cheese_block_slice2"
+    },
+    "missing_pieces=3": {
+      "model": "mineraculous:block/aged_cheese_block_slice3"
+    }
+  }
+}

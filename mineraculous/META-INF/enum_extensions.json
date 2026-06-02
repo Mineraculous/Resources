@@ -1,0 +1,121 @@
+{
+  "entries": [
+    {
+      "enum": "net/minecraft/client/gui/Gui$HeartType",
+      "name": "MINERACULOUS_CATACLYSMED",
+      "constructor": "(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;)V",
+      "parameters": {
+        "class": "dev/thomasglasser/mineraculous/impl/client/gui/MineraculousHeartTypes",
+        "field": "CATACLYSMED"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/item/ItemDisplayContext",
+      "name": "MINERACULOUS_CURIOS_BODY",
+      "constructor": "(ILjava/lang/String;Ljava/lang/String;)V",
+      "parameters": {
+        "class": "dev/thomasglasser/mineraculous/api/world/item/MineraculousItemDisplayContexts",
+        "field": "CURIOS_BODY"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/item/ItemDisplayContext",
+      "name": "MINERACULOUS_CURIOS_HEAD",
+      "constructor": "(ILjava/lang/String;Ljava/lang/String;)V",
+      "parameters": {
+        "class": "dev/thomasglasser/mineraculous/api/world/item/MineraculousItemDisplayContexts",
+        "field": "CURIOS_HEAD"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/item/ItemDisplayContext",
+      "name": "MINERACULOUS_CURIOS_LEFT_EARRING",
+      "constructor": "(ILjava/lang/String;Ljava/lang/String;)V",
+      "parameters": {
+        "class": "dev/thomasglasser/mineraculous/api/world/item/MineraculousItemDisplayContexts",
+        "field": "CURIOS_LEFT_EARRING"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/item/ItemDisplayContext",
+      "name": "MINERACULOUS_CURIOS_RIGHT_EARRING",
+      "constructor": "(ILjava/lang/String;Ljava/lang/String;)V",
+      "parameters": {
+        "class": "dev/thomasglasser/mineraculous/api/world/item/MineraculousItemDisplayContexts",
+        "field": "CURIOS_RIGHT_EARRING"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/item/ItemDisplayContext",
+      "name": "MINERACULOUS_CURIOS_LEFT_ARM",
+      "constructor": "(ILjava/lang/String;Ljava/lang/String;)V",
+      "parameters": {
+        "class": "dev/thomasglasser/mineraculous/api/world/item/MineraculousItemDisplayContexts",
+        "field": "CURIOS_LEFT_ARM"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/item/ItemDisplayContext",
+      "name": "MINERACULOUS_CURIOS_RIGHT_ARM",
+      "constructor": "(ILjava/lang/String;Ljava/lang/String;)V",
+      "parameters": {
+        "class": "dev/thomasglasser/mineraculous/api/world/item/MineraculousItemDisplayContexts",
+        "field": "CURIOS_RIGHT_ARM"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/item/ItemDisplayContext",
+      "name": "MINERACULOUS_CURIOS_LEFT_LEG",
+      "constructor": "(ILjava/lang/String;Ljava/lang/String;)V",
+      "parameters": {
+        "class": "dev/thomasglasser/mineraculous/api/world/item/MineraculousItemDisplayContexts",
+        "field": "CURIOS_LEFT_LEG"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/item/ItemDisplayContext",
+      "name": "MINERACULOUS_CURIOS_RIGHT_LEG",
+      "constructor": "(ILjava/lang/String;Ljava/lang/String;)V",
+      "parameters": {
+        "class": "dev/thomasglasser/mineraculous/api/world/item/MineraculousItemDisplayContexts",
+        "field": "CURIOS_RIGHT_LEG"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/inventory/RecipeBookType",
+      "name": "MINERACULOUS_OVEN",
+      "constructor": "()V",
+      "parameters": {
+        "class": "dev/thomasglasser/mineraculous/impl/world/inventory/MineraculousRecipeBookTypes",
+        "field": "OVEN"
+      }
+    },
+    {
+      "enum": "net/minecraft/client/RecipeBookCategories",
+      "name": "MINERACULOUS_OVEN_SEARCH",
+      "constructor": "(Ljava/util/function/Supplier;)V",
+      "parameters": {
+        "class": "dev/thomasglasser/mineraculous/impl/client/MineraculousRecipeBookCategories",
+        "field": "OVEN_SEARCH"
+      }
+    },
+    {
+      "enum": "net/minecraft/client/RecipeBookCategories",
+      "name": "MINERACULOUS_OVEN_FOOD",
+      "constructor": "(Ljava/util/function/Supplier;)V",
+      "parameters": {
+        "class": "dev/thomasglasser/mineraculous/impl/client/MineraculousRecipeBookCategories",
+        "field": "OVEN_FOOD"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/entity/vehicle/Boat$Type",
+      "name": "MINERACULOUS_ALMOND",
+      "constructor": "(Ljava/util/function/Supplier;Ljava/lang/String;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Z)V",
+      "parameters": {
+        "class": "dev/thomasglasser/mineraculous/impl/world/entity/vehicle/MineraculousBoatTypes",
+        "field": "ALMOND"
+      }
+    }
+  ]
+}

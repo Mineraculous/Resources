@@ -1,0 +1,64 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "mixinextras": {
+    "minVersion": "0.5.0"
+  },
+  "package": "dev.thomasglasser.mineraculous.impl.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "geckolib.renderer.GeoRendererMixin",
+    "minecraft.data.recipes.SimpleCookingRecipeBuilderMixin",
+    "minecraft.server.level.ServerLevelMixin",
+    "minecraft.server.level.ServerPlayer$1Mixin",
+    "minecraft.server.level.ServerPlayer$2Mixin",
+    "minecraft.server.level.ServerPlayerMixin",
+    "minecraft.server.network.ServerGamePacketListenerImplMixin",
+    "minecraft.server.packs.repository.PackMetadataMixin",
+    "minecraft.server.packs.repository.PackMixin",
+    "minecraft.world.entity.EntityMixin",
+    "minecraft.world.entity.LeashableMixin",
+    "minecraft.world.entity.player.PlayerMixin",
+    "minecraft.world.inventory.AbstractContainerMenuMixin",
+    "minecraft.world.item.BlockItemMixin",
+    "minecraft.world.item.BucketItemMixin",
+    "minecraft.world.item.ItemStackMixin",
+    "minecraft.world.item.SpawnEggItemMixin",
+    "minecraft.world.item.context.BlockPlaceContextMixin",
+    "minecraft.world.level.storage.loot.entries.TagEntryMixin",
+    "neoforge.common.extensions.IItemExtensionMixin"
+  ],
+  "client": [
+    "geckolib.renderer.GeoEntityRendererMixin",
+    "minecraft.client.KeyboardHandlerMixin",
+    "minecraft.client.MinecraftMixin",
+    "minecraft.client.MouseHandlerMixin",
+    "minecraft.client.gui.GuiMixin",
+    "minecraft.client.gui.components.spectator.SpectatorGuiMixin",
+    "minecraft.client.gui.screens.PauseScreenMixin",
+    "minecraft.client.gui.screens.inventory.EffectRenderingInventoryScreenMixin",
+    "minecraft.client.gui.screens.packs.PackSelectionModelEntryBaseMixin",
+    "minecraft.client.gui.screens.packs.PackSelectionModelEntryMixin",
+    "minecraft.client.gui.screens.packs.TransferableSelectionListPackEntryMixin",
+    "minecraft.client.multiplayer.ClientLevelMixin",
+    "minecraft.client.player.LocalPlayerMixin",
+    "minecraft.client.renderer.BlockEntityWithoutLevelRendererMixin",
+    "minecraft.client.renderer.GameRendererMixin",
+    "minecraft.client.renderer.LevelRendererMixin",
+    "minecraft.client.renderer.entity.ArrowRendererMixin",
+    "minecraft.client.renderer.entity.EntityRenderDispatcherMixin",
+    "minecraft.client.renderer.entity.EntityRendererMixin",
+    "minecraft.client.renderer.entity.ItemRendererMixin",
+    "minecraft.client.renderer.entity.LivingEntityRendererMixin",
+    "minecraft.client.renderer.entity.ThrownTridentRendererMixin",
+    "minecraft.client.renderer.entity.layers.CapeLayerMixin",
+    "minecraft.client.renderer.entity.layers.ElytraLayerMixin",
+    "minecraft.client.renderer.entity.layers.HumanoidArmorLayerMixin",
+    "tommylib.api.client.renderer.entity.ThrownSwordRendererMixin"
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

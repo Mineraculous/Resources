@@ -1,0 +1,15 @@
+{
+  "processors": [
+    {
+      "color_count": {
+        "type": "minecraft:uniform",
+        "max": 16.0,
+        "min": 1.0
+      },
+      "processor_type": "mineraculous:framed_item_dye",
+      "valid_items": {
+        "items": "mineraculous:macaron"
+      }
+    }
+  ]
+}

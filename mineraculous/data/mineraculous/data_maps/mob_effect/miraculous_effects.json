@@ -1,0 +1,32 @@
+{
+  "values": {
+    "minecraft:haste": {
+      "amplifier": 0,
+      "toggleable": true
+    },
+    "minecraft:health_boost": {
+      "amplifier": 0
+    },
+    "minecraft:jump_boost": {
+      "amplifier": 1,
+      "toggleable": true
+    },
+    "minecraft:regeneration": {
+      "amplifier": 0
+    },
+    "minecraft:resistance": {
+      "amplifier": 0
+    },
+    "minecraft:saturation": {
+      "amplifier": 0
+    },
+    "minecraft:speed": {
+      "amplifier": 0,
+      "toggleable": true
+    },
+    "minecraft:strength": {
+      "amplifier": 0,
+      "toggleable": true
+    }
+  }
+}

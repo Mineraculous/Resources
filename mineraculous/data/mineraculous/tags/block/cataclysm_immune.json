@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:water",
+    "minecraft:lava",
+    "minecraft:fire",
+    "minecraft:soul_fire",
+    "mineraculous:cataclysm_block",
+    {
+      "id": "#c:unbreakable_blocks",
+      "required": false
+    }
+  ]
+}

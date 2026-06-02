@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "mineraculous:almond"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": [
+    "A",
+    "S",
+    "E"
+  ],
+  "result": {
+    "count": 8,
+    "id": "mineraculous:raw_macaron"
+  }
+}

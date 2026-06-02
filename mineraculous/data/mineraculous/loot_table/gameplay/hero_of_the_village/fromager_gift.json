@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mineraculous:fresh_cheese_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mineraculous:aged_cheese_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mineraculous:ripened_cheese_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mineraculous:exquisite_cheese_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mineraculous:time_honored_cheese_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mineraculous:fresh_camembert_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mineraculous:aged_camembert_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mineraculous:ripened_camembert_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mineraculous:exquisite_camembert_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mineraculous:time_honored_camembert_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mineraculous:gameplay/hero_of_the_village/fromager_gift"
+}

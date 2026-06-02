@@ -1,0 +1,15 @@
+{
+  "acceptable_slot": "earrings",
+  "active_ability": "mineraculous:lucky_charm",
+  "color": "#DD1731",
+  "passive_abilities": [
+    "mineraculous:miraculous_ladybug",
+    "mineraculous:passive_luck"
+  ],
+  "tool": {
+    "id": "mineraculous:ladybug_yoyo"
+  },
+  "tool_slot": "belt",
+  "transform_sound": "mineraculous:ladybug_transform",
+  "transformation_frames": 9
+}

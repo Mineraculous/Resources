@@ -1,0 +1,442 @@
+{
+  "lithostitched:worldgen_modifier": [
+    "mineraculous:add_bakery_1_snowy",
+    "mineraculous:add_bakery_1_snowy_zombie",
+    "mineraculous:add_bakery_2_snowy",
+    "mineraculous:add_bakery_2_snowy_zombie",
+    "mineraculous:add_bakery_desert",
+    "mineraculous:add_bakery_desert_zombie",
+    "mineraculous:add_bakery_plains",
+    "mineraculous:add_bakery_plains_zombie",
+    "mineraculous:add_bakery_savanna",
+    "mineraculous:add_bakery_savanna_zombie",
+    "mineraculous:add_bakery_taiga",
+    "mineraculous:add_bakery_taiga_zombie",
+    "mineraculous:add_creamery_desert",
+    "mineraculous:add_creamery_desert_zombie",
+    "mineraculous:add_creamery_plains",
+    "mineraculous:add_creamery_plains_zombie",
+    "mineraculous:add_creamery_savanna",
+    "mineraculous:add_creamery_savanna_zombie",
+    "mineraculous:add_creamery_snowy",
+    "mineraculous:add_creamery_snowy_zombie",
+    "mineraculous:add_creamery_taiga",
+    "mineraculous:add_creamery_taiga_zombie"
+  ],
+  "minecraft:armor_material": [
+    "mineraculous:costume",
+    "mineraculous:miraculous"
+  ],
+  "minecraft:block": [
+    "mineraculous:aged_camembert_block",
+    "mineraculous:aged_cheese_block",
+    "mineraculous:almond_button",
+    "mineraculous:almond_door",
+    "mineraculous:almond_fence",
+    "mineraculous:almond_fence_gate",
+    "mineraculous:almond_hanging_sign",
+    "mineraculous:almond_leaves",
+    "mineraculous:almond_log",
+    "mineraculous:almond_planks",
+    "mineraculous:almond_pressure_plate",
+    "mineraculous:almond_sapling",
+    "mineraculous:almond_sign",
+    "mineraculous:almond_slab",
+    "mineraculous:almond_stairs",
+    "mineraculous:almond_trapdoor",
+    "mineraculous:almond_wall_hanging_sign",
+    "mineraculous:almond_wall_sign",
+    "mineraculous:almond_wood",
+    "mineraculous:cataclysm_block",
+    "mineraculous:cheese_pot",
+    "mineraculous:exquisite_camembert_block",
+    "mineraculous:exquisite_cheese_block",
+    "mineraculous:fresh_camembert_block",
+    "mineraculous:fresh_cheese_block",
+    "mineraculous:hibiscus_bush",
+    "mineraculous:oven",
+    "mineraculous:potted_almond_sapling",
+    "mineraculous:ripened_camembert_block",
+    "mineraculous:ripened_cheese_block",
+    "mineraculous:stripped_almond_log",
+    "mineraculous:stripped_almond_wood",
+    "mineraculous:time_honored_camembert_block",
+    "mineraculous:time_honored_cheese_block",
+    "mineraculous:waxed_aged_camembert_block",
+    "mineraculous:waxed_aged_cheese_block",
+    "mineraculous:waxed_exquisite_camembert_block",
+    "mineraculous:waxed_exquisite_cheese_block",
+    "mineraculous:waxed_fresh_camembert_block",
+    "mineraculous:waxed_fresh_cheese_block",
+    "mineraculous:waxed_ripened_camembert_block",
+    "mineraculous:waxed_ripened_cheese_block",
+    "mineraculous:waxed_time_honored_camembert_block",
+    "mineraculous:waxed_time_honored_cheese_block"
+  ],
+  "minecraft:block_entity_type": [
+    "mineraculous:oven"
+  ],
+  "minecraft:creative_mode_tab": [
+    "mineraculous:costumes",
+    "mineraculous:kamikotizables",
+    "mineraculous:kamikotization_tools",
+    "mineraculous:mineraculous",
+    "mineraculous:miraculouses"
+  ],
+  "minecraft:damage_type": [
+    "mineraculous:cataclysm"
+  ],
+  "minecraft:data_component_type": [
+    "mineraculous:active",
+    "mineraculous:blocking",
+    "mineraculous:butterfly_cane_mode",
+    "mineraculous:carrier",
+    "mineraculous:cat_staff_mode",
+    "mineraculous:charged",
+    "mineraculous:eating_item",
+    "mineraculous:hide_enchantments",
+    "mineraculous:kamiko_data",
+    "mineraculous:kamikotization",
+    "mineraculous:kamikotizing",
+    "mineraculous:kwami_foods",
+    "mineraculous:kwami_id",
+    "mineraculous:ladybug_yoyo_mode",
+    "mineraculous:look_data",
+    "mineraculous:lucky_charm",
+    "mineraculous:miraculous",
+    "mineraculous:miraculous_id",
+    "mineraculous:owner",
+    "mineraculous:power_state",
+    "mineraculous:powered",
+    "mineraculous:remaining_ticks",
+    "mineraculous:revertible_item_id",
+    "mineraculous:tool_id",
+    "mineraculous:transformation_state"
+  ],
+  "minecraft:entity_sub_predicate_type": [
+    "mineraculous:cat_staff",
+    "mineraculous:kamikotization"
+  ],
+  "minecraft:entity_type": [
+    "mineraculous:kamiko",
+    "mineraculous:kamikotized_minion",
+    "mineraculous:kwami",
+    "mineraculous:lucky_charm_item_spawner",
+    "mineraculous:miraculous_ladybug",
+    "mineraculous:thrown_butterfly_cane",
+    "mineraculous:thrown_cat_staff",
+    "mineraculous:thrown_ladybug_yoyo"
+  ],
+  "minecraft:item": [
+    "mineraculous:aged_camembert_block",
+    "mineraculous:aged_camembert_wedge",
+    "mineraculous:aged_cheese_block",
+    "mineraculous:aged_cheese_wedge",
+    "mineraculous:almond",
+    "mineraculous:almond_boat",
+    "mineraculous:almond_button",
+    "mineraculous:almond_chest_boat",
+    "mineraculous:almond_door",
+    "mineraculous:almond_fence",
+    "mineraculous:almond_fence_gate",
+    "mineraculous:almond_hanging_sign",
+    "mineraculous:almond_leaves",
+    "mineraculous:almond_log",
+    "mineraculous:almond_planks",
+    "mineraculous:almond_pressure_plate",
+    "mineraculous:almond_sapling",
+    "mineraculous:almond_sign",
+    "mineraculous:almond_slab",
+    "mineraculous:almond_stairs",
+    "mineraculous:almond_trapdoor",
+    "mineraculous:almond_wood",
+    "mineraculous:butterfly_armor_trim_smithing_template",
+    "mineraculous:butterfly_cane",
+    "mineraculous:cat_armor_trim_smithing_template",
+    "mineraculous:cat_staff",
+    "mineraculous:cataclysm_block",
+    "mineraculous:cataclysm_dust",
+    "mineraculous:cheese_pot",
+    "mineraculous:exquisite_camembert_block",
+    "mineraculous:exquisite_camembert_wedge",
+    "mineraculous:exquisite_cheese_block",
+    "mineraculous:exquisite_cheese_wedge",
+    "mineraculous:fake_miraculous",
+    "mineraculous:fake_miraculous_boots",
+    "mineraculous:fake_miraculous_chestplate",
+    "mineraculous:fake_miraculous_leggings",
+    "mineraculous:fake_miraculous_mask",
+    "mineraculous:fresh_camembert_block",
+    "mineraculous:fresh_camembert_wedge",
+    "mineraculous:fresh_cheese_block",
+    "mineraculous:fresh_cheese_wedge",
+    "mineraculous:great_sword",
+    "mineraculous:hibiscus",
+    "mineraculous:kamikotization_boots",
+    "mineraculous:kamikotization_chestplate",
+    "mineraculous:kamikotization_leggings",
+    "mineraculous:kamikotization_mask",
+    "mineraculous:kwami",
+    "mineraculous:ladybug_armor_trim_smithing_template",
+    "mineraculous:ladybug_pottery_sherd",
+    "mineraculous:ladybug_yoyo",
+    "mineraculous:macaron",
+    "mineraculous:miraculous",
+    "mineraculous:miraculous_boots",
+    "mineraculous:miraculous_chestplate",
+    "mineraculous:miraculous_leggings",
+    "mineraculous:miraculous_mask",
+    "mineraculous:oven",
+    "mineraculous:raw_macaron",
+    "mineraculous:ripened_camembert_block",
+    "mineraculous:ripened_camembert_wedge",
+    "mineraculous:ripened_cheese_block",
+    "mineraculous:ripened_cheese_wedge",
+    "mineraculous:roasted_almond",
+    "mineraculous:stripped_almond_log",
+    "mineraculous:stripped_almond_wood",
+    "mineraculous:time_honored_camembert_block",
+    "mineraculous:time_honored_camembert_wedge",
+    "mineraculous:time_honored_cheese_block",
+    "mineraculous:time_honored_cheese_wedge",
+    "mineraculous:waxed_aged_camembert_block",
+    "mineraculous:waxed_aged_camembert_wedge",
+    "mineraculous:waxed_aged_cheese_block",
+    "mineraculous:waxed_aged_cheese_wedge",
+    "mineraculous:waxed_exquisite_camembert_block",
+    "mineraculous:waxed_exquisite_camembert_wedge",
+    "mineraculous:waxed_exquisite_cheese_block",
+    "mineraculous:waxed_exquisite_cheese_wedge",
+    "mineraculous:waxed_fresh_camembert_block",
+    "mineraculous:waxed_fresh_camembert_wedge",
+    "mineraculous:waxed_fresh_cheese_block",
+    "mineraculous:waxed_fresh_cheese_wedge",
+    "mineraculous:waxed_ripened_camembert_block",
+    "mineraculous:waxed_ripened_camembert_wedge",
+    "mineraculous:waxed_ripened_cheese_block",
+    "mineraculous:waxed_ripened_cheese_wedge",
+    "mineraculous:waxed_time_honored_camembert_block",
+    "mineraculous:waxed_time_honored_camembert_wedge",
+    "mineraculous:waxed_time_honored_cheese_block",
+    "mineraculous:waxed_time_honored_cheese_wedge"
+  ],
+  "minecraft:item_sub_predicate_type": [
+    "mineraculous:lucky_charm"
+  ],
+  "minecraft:loot_condition_type": [
+    "mineraculous:has_item"
+  ],
+  "minecraft:loot_function_type": [
+    "mineraculous:dye_randomly",
+    "mineraculous:set_miraculous_randomly"
+  ],
+  "minecraft:loot_number_provider_type": [
+    "mineraculous:power_level_multiplier"
+  ],
+  "minecraft:memory_module_type": [
+    "mineraculous:has_replicated",
+    "mineraculous:replicas_made",
+    "mineraculous:replication_status",
+    "mineraculous:replication_wait_ticks"
+  ],
+  "minecraft:menu": [
+    "mineraculous:oven"
+  ],
+  "minecraft:mob_effect": [
+    "mineraculous:cataclysm"
+  ],
+  "minecraft:painting_variant": [
+    "mineraculous:butterfly",
+    "mineraculous:cat",
+    "mineraculous:ladybug",
+    "mineraculous:mini_butterfly",
+    "mineraculous:mini_cat",
+    "mineraculous:mini_ladybug"
+  ],
+  "minecraft:particle_type": [
+    "mineraculous:black_orb",
+    "mineraculous:kamikotization",
+    "mineraculous:reverting_ladybug",
+    "mineraculous:sparkle",
+    "mineraculous:summoning_ladybug"
+  ],
+  "minecraft:point_of_interest_type": [
+    "mineraculous:baker",
+    "mineraculous:fromager"
+  ],
+  "minecraft:recipe_serializer": [
+    "mineraculous:campfire_cooking_transmute",
+    "mineraculous:crafting_special_cheesewedge",
+    "mineraculous:oven_cooking",
+    "mineraculous:oven_cooking_transmute",
+    "mineraculous:smelting_transmute",
+    "mineraculous:smoking_transmute"
+  ],
+  "minecraft:recipe_type": [
+    "mineraculous:oven_cooking"
+  ],
+  "minecraft:sensor_type": [
+    "mineraculous:player_item_tempting"
+  ],
+  "minecraft:sound_event": [
+    "mineraculous:butterfly_transform",
+    "mineraculous:cat_staff_extend",
+    "mineraculous:cat_staff_retract",
+    "mineraculous:cat_transform",
+    "mineraculous:cataclysm_activate",
+    "mineraculous:cataclysm_use",
+    "mineraculous:generic_detransform",
+    "mineraculous:generic_spin",
+    "mineraculous:generic_timer_end",
+    "mineraculous:generic_timer_warning",
+    "mineraculous:generic_transform",
+    "mineraculous:kamikotization_activate",
+    "mineraculous:kamikotization_begin",
+    "mineraculous:kamikotization_detransform",
+    "mineraculous:kamikotization_transform",
+    "mineraculous:kamikotized_communication_activate",
+    "mineraculous:kwami_hurt",
+    "mineraculous:kwami_summon",
+    "mineraculous:ladybug_transform",
+    "mineraculous:ladybug_yoyo_spin",
+    "mineraculous:lucky_charm_activate",
+    "mineraculous:miraculous_ladybug_activate"
+  ],
+  "minecraft:trigger_type": [
+    "mineraculous:kamikotized_entity",
+    "mineraculous:performed_kamikotization_active_ability",
+    "mineraculous:performed_miraculous_active_ability",
+    "mineraculous:released_purified_entities",
+    "mineraculous:transformed_kamikotization",
+    "mineraculous:transformed_miraculous"
+  ],
+  "minecraft:trim_pattern": [
+    "mineraculous:butterfly",
+    "mineraculous:cat",
+    "mineraculous:ladybug"
+  ],
+  "minecraft:villager_profession": [
+    "mineraculous:baker",
+    "mineraculous:fromager"
+  ],
+  "minecraft:worldgen/configured_feature": [
+    "mineraculous:almond",
+    "mineraculous:fancy_almond",
+    "mineraculous:trees_almond",
+    "mineraculous:trees_almond_002"
+  ],
+  "minecraft:worldgen/placed_feature": [
+    "mineraculous:almond_checked",
+    "mineraculous:almond_checked_002",
+    "mineraculous:common_trees_almond",
+    "mineraculous:fancy_almond_checked",
+    "mineraculous:fancy_almond_checked_002",
+    "mineraculous:rare_trees_almond"
+  ],
+  "minecraft:worldgen/processor_list": [
+    "mineraculous:bakery",
+    "mineraculous:bakery_mossify_10_percent",
+    "mineraculous:bakery_zombie_desert",
+    "mineraculous:bakery_zombie_plains",
+    "mineraculous:bakery_zombie_savanna",
+    "mineraculous:bakery_zombie_snowy",
+    "mineraculous:bakery_zombie_taiga"
+  ],
+  "minecraft:worldgen/structure_processor": [
+    "mineraculous:framed_item_dye"
+  ],
+  "mineraculous:ability": [
+    "mineraculous:cat_vision",
+    "mineraculous:cataclysm",
+    "mineraculous:kamiko_control",
+    "mineraculous:kamikotization",
+    "mineraculous:kamikotized_communication",
+    "mineraculous:lucky_charm",
+    "mineraculous:miraculous_ladybug",
+    "mineraculous:passive_luck",
+    "mineraculous:passive_unluck"
+  ],
+  "mineraculous:ability_serializer": [
+    "mineraculous:apply_effects_or_destroy",
+    "mineraculous:context_dependent",
+    "mineraculous:continuous",
+    "mineraculous:convert_and_tame",
+    "mineraculous:passive_infinite_effects",
+    "mineraculous:replace_adjacent_blocks",
+    "mineraculous:replace_item_in_main_hand",
+    "mineraculous:revert_lucky_charm_targets_ability_effects",
+    "mineraculous:right_hand_particles",
+    "mineraculous:spectate_entity",
+    "mineraculous:summon_target_dependent_lucky_charm",
+    "mineraculous:toggleable_special_effects"
+  ],
+  "mineraculous:kamikotization": [
+    "mineraculous:cat",
+    "mineraculous:ladybug",
+    "mineraculous:stormy"
+  ],
+  "mineraculous:look_context": [
+    "mineraculous:hidden_miraculous",
+    "mineraculous:kamikotization_suit",
+    "mineraculous:kamikotization_tool",
+    "mineraculous:miraculous_suit",
+    "mineraculous:miraculous_tool",
+    "mineraculous:powered_miraculous"
+  ],
+  "mineraculous:look_metadata_type": [
+    "mineraculous:valid_kamikotizations",
+    "mineraculous:valid_miraculouses"
+  ],
+  "mineraculous:miraculous": [
+    "mineraculous:butterfly",
+    "mineraculous:cat",
+    "mineraculous:ladybug"
+  ],
+  "mineraculous:miraculous_ladybug_target_type": [
+    "mineraculous:block",
+    "mineraculous:cluster",
+    "mineraculous:entity"
+  ],
+  "neoforge:attachment_types": [
+    "mineraculous:inventory_trackers",
+    "mineraculous:kamikotization",
+    "mineraculous:leashing_ladybug_yoyo",
+    "mineraculous:miraculous_ladybug_trigger",
+    "mineraculous:miraculouses",
+    "mineraculous:old_kamikotization",
+    "mineraculous:perching_cat_staff",
+    "mineraculous:persistent_ability_effects",
+    "mineraculous:stored_armor",
+    "mineraculous:synced_transient_ability_effects",
+    "mineraculous:thrown_ladybug_yoyo",
+    "mineraculous:transient_ability_effects",
+    "mineraculous:traveling_cat_staff",
+    "mineraculous:yoyo_leash_override"
+  ],
+  "neoforge:biome_modifier": [
+    "mineraculous:add_common_almond_trees",
+    "mineraculous:add_rare_almond_trees"
+  ],
+  "neoforge:entity_data_serializers": [
+    "mineraculous:kwami_summoning_appearance",
+    "mineraculous:look_data",
+    "mineraculous:minion_kamikotization_data",
+    "mineraculous:miraculous",
+    "mineraculous:miraculous_ladybug_target_data",
+    "mineraculous:optional_kamikotization",
+    "mineraculous:optional_ladybug_yoyo_mode",
+    "mineraculous:optional_resource_location",
+    "mineraculous:uuid"
+  ],
+  "neoforge:synced_attachment_types": [
+    "mineraculous:kamikotization",
+    "mineraculous:leashing_ladybug_yoyo",
+    "mineraculous:miraculous_ladybug_trigger",
+    "mineraculous:miraculouses",
+    "mineraculous:perching_cat_staff",
+    "mineraculous:synced_transient_ability_effects",
+    "mineraculous:thrown_ladybug_yoyo",
+    "mineraculous:traveling_cat_staff",
+    "mineraculous:yoyo_leash_override"
+  ]
+}

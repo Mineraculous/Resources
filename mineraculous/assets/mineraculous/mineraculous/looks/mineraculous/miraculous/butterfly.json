@@ -1,0 +1,106 @@
+{
+  "contexts": {
+    "mineraculous:hidden_miraculous": {
+      "mineraculous:geckolib_model": "mineraculous:geo/item/miraculous/butterfly_hidden.geo.json",
+      "mineraculous:item_transforms": "mineraculous:models/item/miraculous/butterfly_hidden.json",
+      "mineraculous:texture": "mineraculous:textures/item/miraculous/butterfly/hidden.png"
+    },
+    "mineraculous:miraculous_suit": {
+      "mineraculous:geckolib_model": "mineraculous:geo/item/armor/miraculous/butterfly.geo.json",
+      "mineraculous:texture": "mineraculous:textures/entity/equipment/humanoid/miraculous/butterfly.png",
+      "mineraculous:transformation_textures": {
+        "base": "mineraculous:textures/entity/equipment/humanoid/miraculous/butterfly.png",
+        "texture_count": 7
+      }
+    },
+    "mineraculous:miraculous_tool": {
+      "assets": {
+        "mineraculous:flat_texture": "mineraculous:textures/item/butterfly_cane.png",
+        "mineraculous:geckolib_animations": "mineraculous:animations/item/butterfly_cane.animation.json",
+        "mineraculous:geckolib_model": "mineraculous:geo/item/butterfly_cane.geo.json",
+        "mineraculous:item_transforms": "mineraculous:models/item/butterfly_cane_in_hand.json",
+        "mineraculous:texture": "mineraculous:textures/item/geo/butterfly_cane.png"
+      },
+      "overrides": [
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/butterfly_cane_blade.png",
+            "mineraculous:item_transforms": "mineraculous:models/item/butterfly_cane_blade.json"
+          },
+          "predicate": {
+            "mineraculous:mode": 1.0
+          }
+        },
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/butterfly_cane.png",
+            "mineraculous:item_transforms": "mineraculous:models/item/butterfly_cane_in_hand.json"
+          },
+          "predicate": {
+            "mineraculous:mode": 2.0
+          }
+        },
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/butterfly_cane_kamiko_store.png"
+          },
+          "predicate": {
+            "mineraculous:mode": 3.0,
+            "mineraculous:storing": 0.0
+          }
+        },
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/butterfly_cane.png",
+            "mineraculous:item_transforms": "mineraculous:models/item/butterfly_cane_in_hand.json"
+          },
+          "predicate": {
+            "mineraculous:mode": 3.0,
+            "mineraculous:storing": 1.0
+          }
+        },
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/butterfly_cane_phone.png"
+          },
+          "predicate": {
+            "mineraculous:mode": 4.0
+          }
+        },
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/butterfly_cane_spyglass.png",
+            "mineraculous:item_transforms": "mineraculous:models/item/butterfly_cane_spyglass.json",
+            "mineraculous:scope_texture": "mineraculous:textures/misc/butterfly_cane_spyglass_scope.png",
+            "mineraculous:texture": "mineraculous:textures/item/geo/butterfly_cane_spyglass.png"
+          },
+          "predicate": {
+            "mineraculous:mode": 5.0
+          }
+        },
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/butterfly_cane.png",
+            "mineraculous:item_transforms": "mineraculous:models/item/butterfly_cane_in_hand.json"
+          },
+          "predicate": {
+            "mineraculous:mode": 6.0
+          }
+        }
+      ]
+    },
+    "mineraculous:powered_miraculous": {
+      "mineraculous:countdown_textures": {
+        "base": "mineraculous:textures/item/miraculous/butterfly/powered.png"
+      },
+      "mineraculous:geckolib_model": "mineraculous:geo/item/miraculous/butterfly.geo.json",
+      "mineraculous:item_transforms": "mineraculous:models/item/miraculous/butterfly.json",
+      "mineraculous:texture": "mineraculous:textures/item/miraculous/butterfly/powered.png"
+    }
+  },
+  "metadata": {
+    "mineraculous:valid_miraculouses": [
+      "mineraculous:butterfly"
+    ]
+  }
+}

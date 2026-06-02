@@ -1,0 +1,11 @@
+{
+  "default_name": "Bugaboo",
+  "passive_abilities": [
+    "mineraculous:cat_vision",
+    "mineraculous:kamiko_control"
+  ],
+  "power_source": {
+    "count": 1,
+    "id": "minecraft:bow"
+  }
+}

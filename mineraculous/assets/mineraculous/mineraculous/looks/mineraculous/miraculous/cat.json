@@ -1,0 +1,78 @@
+{
+  "contexts": {
+    "mineraculous:hidden_miraculous": {
+      "mineraculous:geckolib_model": "mineraculous:geo/item/miraculous/cat.geo.json",
+      "mineraculous:item_transforms": "mineraculous:models/item/miraculous/cat.json",
+      "mineraculous:texture": "mineraculous:textures/item/miraculous/cat/hidden.png"
+    },
+    "mineraculous:miraculous_suit": {
+      "mineraculous:geckolib_model": "mineraculous:geo/item/armor/miraculous/cat.geo.json",
+      "mineraculous:texture": "mineraculous:textures/entity/equipment/humanoid/miraculous/cat.png",
+      "mineraculous:transformation_textures": {
+        "base": "mineraculous:textures/entity/equipment/humanoid/miraculous/cat.png",
+        "texture_count": 9
+      }
+    },
+    "mineraculous:miraculous_tool": {
+      "assets": {
+        "mineraculous:flat_texture": "mineraculous:textures/item/cat_staff.png",
+        "mineraculous:geckolib_animations": "mineraculous:animations/item/cat_staff.animation.json",
+        "mineraculous:geckolib_model": "mineraculous:geo/item/cat_staff.geo.json",
+        "mineraculous:item_transforms": "mineraculous:models/item/cat_staff_in_hand.json",
+        "mineraculous:texture": "mineraculous:textures/item/geo/cat_staff.png"
+      },
+      "overrides": [
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/cat_staff_active.png"
+          },
+          "predicate": {
+            "mineraculous:active": 1.0
+          }
+        },
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/cat_staff_phone.png"
+          },
+          "predicate": {
+            "mineraculous:active": 1.0,
+            "mineraculous:mode": 3.0
+          }
+        },
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/cat_staff_spyglass.png",
+            "mineraculous:item_transforms": "mineraculous:models/item/cat_staff_spyglass.json",
+            "mineraculous:scope_texture": "mineraculous:textures/misc/cat_staff_spyglass_scope.png"
+          },
+          "predicate": {
+            "mineraculous:active": 1.0,
+            "mineraculous:mode": 4.0
+          }
+        },
+        {
+          "assets": {
+            "mineraculous:flat_texture": "mineraculous:textures/item/cat_staff_active.png"
+          },
+          "predicate": {
+            "mineraculous:active": 1.0,
+            "mineraculous:mode": 5.0
+          }
+        }
+      ]
+    },
+    "mineraculous:powered_miraculous": {
+      "mineraculous:countdown_textures": {
+        "base": "mineraculous:textures/item/miraculous/cat/powered.png"
+      },
+      "mineraculous:geckolib_model": "mineraculous:geo/item/miraculous/cat.geo.json",
+      "mineraculous:item_transforms": "mineraculous:models/item/miraculous/cat.json",
+      "mineraculous:texture": "mineraculous:textures/item/miraculous/cat/powered.png"
+    }
+  },
+  "metadata": {
+    "mineraculous:valid_miraculouses": [
+      "mineraculous:cat"
+    ]
+  }
+}

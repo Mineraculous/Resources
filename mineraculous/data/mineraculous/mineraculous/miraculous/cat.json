@@ -1,0 +1,15 @@
+{
+  "acceptable_slot": "ring",
+  "active_ability": "mineraculous:cataclysm",
+  "color": "#C6F800",
+  "passive_abilities": [
+    "mineraculous:cat_vision",
+    "mineraculous:passive_unluck"
+  ],
+  "tool": {
+    "id": "mineraculous:cat_staff"
+  },
+  "tool_slot": "belt",
+  "transform_sound": "mineraculous:cat_transform",
+  "transformation_frames": 9
+}

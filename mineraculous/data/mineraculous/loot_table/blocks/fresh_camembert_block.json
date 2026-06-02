@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "mineraculous:fresh_camembert_block",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "missing_pieces": "3"
+                  }
+                }
+              ],
+              "name": "mineraculous:fresh_camembert_wedge"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "block": "mineraculous:fresh_camembert_block",
+                  "function": "minecraft:copy_state",
+                  "properties": [
+                    "missing_pieces"
+                  ]
+                }
+              ],
+              "name": "mineraculous:fresh_camembert_block"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mineraculous:blocks/fresh_camembert_block"
+}
