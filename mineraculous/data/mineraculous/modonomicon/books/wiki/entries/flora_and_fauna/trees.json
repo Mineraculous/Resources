@@ -1,0 +1,31 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "flora_and_fauna",
+  "description": "book.mineraculous.wiki.flora_and_fauna.trees.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "mineraculous:almond_sapling"
+  },
+  "name": "book.mineraculous.wiki.flora_and_fauna.trees.name",
+  "pages": [
+    {
+      "type": "modonomicon:image",
+      "anchor": "",
+      "border": true,
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "images": [
+        "mineraculous:textures/modonomicon/wiki/flora_and_fauna/trees/almond.png"
+      ],
+      "text": "book.mineraculous.wiki.flora_and_fauna.trees.almond.text",
+      "title": "book.mineraculous.wiki.flora_and_fauna.trees.almond.title",
+      "use_legacy_rendering": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 1,
+  "x": 0,
+  "y": 0
+}

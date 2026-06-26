@@ -1,4 +1,9 @@
 [
+  "mineraculous:almond_boat",
+  "mineraculous:almond_chest_boat",
+  "mineraculous:almond_hanging_sign",
+  "mineraculous:almond_planks",
+  "mineraculous:almond_wood",
   "minecraft:baked_potato_from_oven_cooking",
   "mineraculous:butterfly_armor_trim_smithing_template",
   "mineraculous:butterfly_armor_trim_smithing_template_smithing_trim",
@@ -26,6 +31,8 @@
   "mineraculous:roasted_almond_from_campfire_cooking",
   "mineraculous:roasted_almond_from_oven_cooking",
   "mineraculous:roasted_almond_from_smoking",
+  "mineraculous:rope",
+  "mineraculous:stripped_almond_wood",
   "mineraculous:waxed_aged_camembert_block_from_honeycomb",
   "mineraculous:waxed_aged_cheese_block_from_honeycomb",
   "mineraculous:waxed_exquisite_camembert_block_from_honeycomb",

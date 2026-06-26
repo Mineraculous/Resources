@@ -3,12 +3,21 @@
   "criteria": {
     "cataclysm_entity": {
       "conditions": {
-        "contexts": [
-          "living_entity"
-        ],
-        "miraculous": "mineraculous:cat"
+        "id": "cataclysm",
+        "source": {
+          "key": {
+            "element": "mineraculous:cat",
+            "registry": "mineraculous:miraculous"
+          }
+        },
+        "target": {
+          "type": "mineraculous:entity",
+          "entity": {
+            "equipment": {}
+          }
+        }
       },
-      "trigger": "mineraculous:performed_miraculous_active_ability"
+      "trigger": "mineraculous:performed_ability"
     }
   },
   "display": {

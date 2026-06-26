@@ -1,8 +1,67 @@
 {
   "default_name": "Bugaboo",
   "passive_abilities": [
-    "mineraculous:cat_vision",
-    "mineraculous:kamiko_control"
+    {
+      "ability": {
+        "branches": [
+          {
+            "actions": [
+              {
+                "type": "mineraculous:toggleable_special_effects",
+                "effects": "minecraft:night_vision",
+                "shader": "shader"
+              }
+            ]
+          }
+        ],
+        "look_properties": {
+          "shader": {
+            "type": "mineraculous:resource_location",
+            "default_value": "mineraculous:shaders/post/cat_vision.json"
+          }
+        }
+      },
+      "id": "cat_vision"
+    },
+    {
+      "ability": {
+        "branches": [
+          {
+            "actions": [
+              {
+                "type": "mineraculous:spectate_entity",
+                "can_depower": true,
+                "face_mask_texture": "face_mask_texture",
+                "override_owner": true,
+                "shader": "shader",
+                "valid_entities": {
+                  "type": "mineraculous:kamiko"
+                }
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "type": "mineraculous:source",
+            "valid_ability_sources": {
+              "power_active": true
+            }
+          }
+        ],
+        "look_properties": {
+          "face_mask_texture": {
+            "type": "mineraculous:resource_location",
+            "default_value": "mineraculous:textures/entity/player/face_mask/kamiko.png"
+          },
+          "shader": {
+            "type": "mineraculous:resource_location",
+            "default_value": "mineraculous:shaders/post/kamiko.json"
+          }
+        }
+      },
+      "id": "kamiko_control"
+    }
   ],
   "power_source": {
     "count": 1,

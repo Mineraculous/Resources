@@ -1,0 +1,43 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "food",
+  "description": "book.mineraculous.wiki.food.almonds.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "mineraculous:almond"
+  },
+  "name": "book.mineraculous.wiki.food.almonds.name",
+  "pages": [
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:roasted_almond"
+      },
+      "text": "book.mineraculous.wiki.food.almonds.eating.text",
+      "title": "book.mineraculous.wiki.food.almonds.eating.title"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:almond_leaves"
+      },
+      "text": "book.mineraculous.wiki.food.almonds.finding.text",
+      "title": "book.mineraculous.wiki.food.almonds.finding.title"
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 0,
+  "x": 0,
+  "y": 0
+}

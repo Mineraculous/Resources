@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "cross": "mineraculous:block/orange_hibiscus_bush_stage3_top"
+  }
+}

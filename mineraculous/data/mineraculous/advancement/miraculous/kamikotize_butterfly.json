@@ -3,12 +3,18 @@
   "criteria": {
     "kamikotize_butterfly": {
       "conditions": {
-        "contexts": [
-          "living_entity"
-        ],
-        "miraculous": "mineraculous:butterfly"
+        "id": "kamikotization",
+        "source": {
+          "key": {
+            "element": "mineraculous:butterfly",
+            "registry": "mineraculous:miraculous"
+          }
+        },
+        "target": {
+          "type": "mineraculous:entity"
+        }
       },
-      "trigger": "mineraculous:performed_miraculous_active_ability"
+      "trigger": "mineraculous:performed_ability"
     }
   },
   "display": {

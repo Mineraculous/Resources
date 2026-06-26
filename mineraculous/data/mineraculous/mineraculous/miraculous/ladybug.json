@@ -1,15 +1,89 @@
 {
   "acceptable_slot": "earrings",
-  "active_ability": "mineraculous:lucky_charm",
+  "active_ability": {
+    "ability": {
+      "branches": [
+        {
+          "actions": [
+            {
+              "type": "mineraculous:summon_target_dependent_lucky_charm",
+              "start_sound": "start_sound"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "type": "mineraculous:source",
+          "valid_ability_sources": {
+            "tool": {}
+          }
+        }
+      ],
+      "look_properties": {
+        "start_sound": {
+          "type": "mineraculous:sound",
+          "default_value": "mineraculous:lucky_charm_activate",
+          "optional": true
+        }
+      }
+    },
+    "id": "lucky_charm"
+  },
   "color": "#DD1731",
+  "look_properties": {
+    "mineraculous:transform_sound": "mineraculous:ladybug_transform",
+    "mineraculous:transformation_frames": 9
+  },
   "passive_abilities": [
-    "mineraculous:miraculous_ladybug",
-    "mineraculous:passive_luck"
+    {
+      "ability": {
+        "branches": [
+          {
+            "actions": [
+              {
+                "type": "mineraculous:revert_lucky_charm_targets_ability_effects",
+                "revert_sound": "revert_sound"
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "type": "mineraculous:source",
+            "valid_ability_sources": {
+              "power_active": true
+            }
+          }
+        ],
+        "look_properties": {
+          "revert_sound": {
+            "type": "mineraculous:sound",
+            "default_value": "mineraculous:miraculous_ladybug_activate",
+            "optional": true
+          }
+        }
+      },
+      "id": "miraculous_ladybug"
+    },
+    {
+      "ability": {
+        "branches": [
+          {
+            "actions": [
+              {
+                "type": "mineraculous:passive_infinite_effects",
+                "effects": "minecraft:luck"
+              }
+            ]
+          }
+        ]
+      },
+      "id": "passive_luck"
+    }
   ],
   "tool": {
     "id": "mineraculous:ladybug_yoyo"
   },
-  "tool_slot": "belt",
-  "transform_sound": "mineraculous:ladybug_transform",
-  "transformation_frames": 9
+  "tool_slot": "belt"
 }

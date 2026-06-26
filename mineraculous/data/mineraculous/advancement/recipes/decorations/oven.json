@@ -1,6 +1,16 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
+    "has_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_furnace": {
       "conditions": {
         "items": [
@@ -11,21 +21,11 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_iron_ingots": {
+    "has_oak_log": {
       "conditions": {
         "items": [
           {
-            "items": "#c:ingots/iron"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_planks": {
-      "conditions": {
-        "items": [
-          {
-            "items": "#minecraft:planks"
+            "items": "minecraft:oak_log"
           }
         ]
       },
@@ -41,9 +41,9 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_iron_ingots",
-      "has_furnace",
-      "has_planks"
+      "has_bricks",
+      "has_oak_log",
+      "has_furnace"
     ]
   ],
   "rewards": {

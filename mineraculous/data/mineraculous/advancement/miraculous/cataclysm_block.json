@@ -3,12 +3,18 @@
   "criteria": {
     "cataclysm_block": {
       "conditions": {
-        "contexts": [
-          "block"
-        ],
-        "miraculous": "mineraculous:cat"
+        "id": "cataclysm",
+        "source": {
+          "key": {
+            "element": "mineraculous:cat",
+            "registry": "mineraculous:miraculous"
+          }
+        },
+        "target": {
+          "type": "mineraculous:block"
+        }
       },
-      "trigger": "mineraculous:performed_miraculous_active_ability"
+      "trigger": "mineraculous:performed_ability"
     }
   },
   "display": {

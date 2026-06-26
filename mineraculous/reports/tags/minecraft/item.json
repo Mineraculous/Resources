@@ -13,6 +13,7 @@
   "c:foods/cheese_blocks",
   "c:foods/cheeses",
   "c:foods/edible_when_placed",
+  "mineraculous:hibiscus",
   "mineraculous:kamikotization_immune",
   "mineraculous:kwami_preferred_foods/butterfly",
   "mineraculous:kwami_preferred_foods/cat",
@@ -28,5 +29,6 @@
   "c:stripped_logs",
   "c:stripped_woods",
   "mineraculous:tough",
+  "c:villager_job_sites",
   "mineraculous:warden_distractors"
 ]

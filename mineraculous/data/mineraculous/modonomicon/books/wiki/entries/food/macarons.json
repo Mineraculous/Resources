@@ -1,0 +1,66 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "food",
+  "description": "book.mineraculous.wiki.food.macarons.description",
+  "hide_while_locked": false,
+  "icon": {
+    "components": {
+      "minecraft:dyed_color": {
+        "rgb": 11546150
+      }
+    },
+    "item": "mineraculous:macaron"
+  },
+  "name": "book.mineraculous.wiki.food.macarons.name",
+  "pages": [
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:raw_macaron"
+      },
+      "text": "book.mineraculous.wiki.food.macarons.eating.text",
+      "title": "book.mineraculous.wiki.food.macarons.eating.title"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:cheese_pot"
+      },
+      "text": "book.mineraculous.wiki.food.macarons.finding.text",
+      "title": "book.mineraculous.wiki.food.macarons.finding.title"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "components": {
+          "minecraft:dyed_color": {
+            "rgb": 11359128
+          }
+        },
+        "count": 1,
+        "item": "mineraculous:raw_macaron"
+      },
+      "text": "book.mineraculous.wiki.food.macarons.dyeing.text",
+      "title": "book.mineraculous.wiki.food.macarons.dyeing.title"
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 1,
+  "x": 0,
+  "y": 0
+}

@@ -5,7 +5,7 @@
   "description": "book.mineraculous.wiki.flora_and_fauna.flowers.description",
   "hide_while_locked": false,
   "icon": {
-    "item": "mineraculous:hibiscus"
+    "item": "mineraculous:orange_hibiscus"
   },
   "name": "book.mineraculous.wiki.flora_and_fauna.flowers.name",
   "pages": [

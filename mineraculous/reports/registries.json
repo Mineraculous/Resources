@@ -27,6 +27,11 @@
     "mineraculous:costume",
     "mineraculous:miraculous"
   ],
+  "minecraft:banner_pattern": [
+    "mineraculous:butterfly",
+    "mineraculous:cat",
+    "mineraculous:ladybug"
+  ],
   "minecraft:block": [
     "mineraculous:aged_camembert_block",
     "mineraculous:aged_cheese_block",
@@ -47,15 +52,18 @@
     "mineraculous:almond_wall_hanging_sign",
     "mineraculous:almond_wall_sign",
     "mineraculous:almond_wood",
+    "mineraculous:blue_hibiscus_bush",
     "mineraculous:cataclysm_block",
     "mineraculous:cheese_pot",
     "mineraculous:exquisite_camembert_block",
     "mineraculous:exquisite_cheese_block",
     "mineraculous:fresh_camembert_block",
     "mineraculous:fresh_cheese_block",
-    "mineraculous:hibiscus_bush",
+    "mineraculous:orange_hibiscus_bush",
     "mineraculous:oven",
+    "mineraculous:pink_hibiscus_bush",
     "mineraculous:potted_almond_sapling",
+    "mineraculous:purple_hibiscus_bush",
     "mineraculous:ripened_camembert_block",
     "mineraculous:ripened_cheese_block",
     "mineraculous:stripped_almond_log",
@@ -150,9 +158,14 @@
     "mineraculous:almond_stairs",
     "mineraculous:almond_trapdoor",
     "mineraculous:almond_wood",
+    "mineraculous:blue_hibiscus",
     "mineraculous:butterfly_armor_trim_smithing_template",
+    "mineraculous:butterfly_banner_pattern",
     "mineraculous:butterfly_cane",
+    "mineraculous:butterfly_pottery_sherd",
     "mineraculous:cat_armor_trim_smithing_template",
+    "mineraculous:cat_banner_pattern",
+    "mineraculous:cat_pottery_sherd",
     "mineraculous:cat_staff",
     "mineraculous:cataclysm_block",
     "mineraculous:cataclysm_dust",
@@ -171,13 +184,13 @@
     "mineraculous:fresh_cheese_block",
     "mineraculous:fresh_cheese_wedge",
     "mineraculous:great_sword",
-    "mineraculous:hibiscus",
     "mineraculous:kamikotization_boots",
     "mineraculous:kamikotization_chestplate",
     "mineraculous:kamikotization_leggings",
     "mineraculous:kamikotization_mask",
     "mineraculous:kwami",
     "mineraculous:ladybug_armor_trim_smithing_template",
+    "mineraculous:ladybug_banner_pattern",
     "mineraculous:ladybug_pottery_sherd",
     "mineraculous:ladybug_yoyo",
     "mineraculous:macaron",
@@ -186,13 +199,17 @@
     "mineraculous:miraculous_chestplate",
     "mineraculous:miraculous_leggings",
     "mineraculous:miraculous_mask",
+    "mineraculous:orange_hibiscus",
     "mineraculous:oven",
+    "mineraculous:pink_hibiscus",
+    "mineraculous:purple_hibiscus",
     "mineraculous:raw_macaron",
     "mineraculous:ripened_camembert_block",
     "mineraculous:ripened_camembert_wedge",
     "mineraculous:ripened_cheese_block",
     "mineraculous:ripened_cheese_wedge",
     "mineraculous:roasted_almond",
+    "mineraculous:rope",
     "mineraculous:stripped_almond_log",
     "mineraculous:stripped_almond_wood",
     "mineraculous:time_honored_camembert_block",
@@ -304,8 +321,7 @@
   ],
   "minecraft:trigger_type": [
     "mineraculous:kamikotized_entity",
-    "mineraculous:performed_kamikotization_active_ability",
-    "mineraculous:performed_miraculous_active_ability",
+    "mineraculous:performed_ability",
     "mineraculous:released_purified_entities",
     "mineraculous:transformed_kamikotization",
     "mineraculous:transformed_miraculous"
@@ -345,21 +361,8 @@
   "minecraft:worldgen/structure_processor": [
     "mineraculous:framed_item_dye"
   ],
-  "mineraculous:ability": [
-    "mineraculous:cat_vision",
-    "mineraculous:cataclysm",
-    "mineraculous:kamiko_control",
-    "mineraculous:kamikotization",
-    "mineraculous:kamikotized_communication",
-    "mineraculous:lucky_charm",
-    "mineraculous:miraculous_ladybug",
-    "mineraculous:passive_luck",
-    "mineraculous:passive_unluck"
-  ],
-  "mineraculous:ability_serializer": [
+  "mineraculous:ability_action": [
     "mineraculous:apply_effects_or_destroy",
-    "mineraculous:context_dependent",
-    "mineraculous:continuous",
     "mineraculous:convert_and_tame",
     "mineraculous:passive_infinite_effects",
     "mineraculous:replace_adjacent_blocks",
@@ -369,6 +372,30 @@
     "mineraculous:spectate_entity",
     "mineraculous:summon_target_dependent_lucky_charm",
     "mineraculous:toggleable_special_effects"
+  ],
+  "mineraculous:ability_condition": [
+    "mineraculous:performer",
+    "mineraculous:source",
+    "mineraculous:target"
+  ],
+  "mineraculous:ability_state": [
+    "mineraculous:continuous",
+    "mineraculous:face_mask",
+    "mineraculous:kill_credit_override",
+    "mineraculous:private_chat",
+    "mineraculous:shader",
+    "mineraculous:spectation",
+    "mineraculous:spectation_interrupted",
+    "mineraculous:toggle_special_effects",
+    "mineraculous:transferable_source_data"
+  ],
+  "mineraculous:ability_target_predicate": [
+    "mineraculous:block",
+    "mineraculous:entity",
+    "mineraculous:passive"
+  ],
+  "mineraculous:ability_task": [
+    "mineraculous:replace_blocks"
   ],
   "mineraculous:kamikotization": [
     "mineraculous:cat",
@@ -386,6 +413,13 @@
   "mineraculous:look_metadata_type": [
     "mineraculous:valid_kamikotizations",
     "mineraculous:valid_miraculouses"
+  ],
+  "mineraculous:look_property_type": [
+    "mineraculous:particle",
+    "mineraculous:positive_number",
+    "mineraculous:resource_location",
+    "mineraculous:sound",
+    "mineraculous:string"
   ],
   "mineraculous:miraculous": [
     "mineraculous:butterfly",
@@ -405,12 +439,13 @@
     "mineraculous:miraculouses",
     "mineraculous:old_kamikotization",
     "mineraculous:perching_cat_staff",
-    "mineraculous:persistent_ability_effects",
+    "mineraculous:performer_ability",
+    "mineraculous:rope_override",
     "mineraculous:stored_armor",
-    "mineraculous:synced_transient_ability_effects",
+    "mineraculous:target_ability",
     "mineraculous:thrown_ladybug_yoyo",
-    "mineraculous:transient_ability_effects",
     "mineraculous:traveling_cat_staff",
+    "mineraculous:tying_rope",
     "mineraculous:yoyo_leash_override"
   ],
   "neoforge:biome_modifier": [
@@ -418,11 +453,13 @@
     "mineraculous:add_rare_almond_trees"
   ],
   "neoforge:entity_data_serializers": [
+    "mineraculous:ability_instance_list",
     "mineraculous:kwami_summoning_appearance",
     "mineraculous:look_data",
     "mineraculous:minion_kamikotization_data",
     "mineraculous:miraculous",
     "mineraculous:miraculous_ladybug_target_data",
+    "mineraculous:optional_ability_instance",
     "mineraculous:optional_kamikotization",
     "mineraculous:optional_ladybug_yoyo_mode",
     "mineraculous:optional_resource_location",
@@ -434,9 +471,12 @@
     "mineraculous:miraculous_ladybug_trigger",
     "mineraculous:miraculouses",
     "mineraculous:perching_cat_staff",
-    "mineraculous:synced_transient_ability_effects",
+    "mineraculous:performer_ability",
+    "mineraculous:rope_override",
+    "mineraculous:target_ability",
     "mineraculous:thrown_ladybug_yoyo",
     "mineraculous:traveling_cat_staff",
+    "mineraculous:tying_rope",
     "mineraculous:yoyo_leash_override"
   ]
 }

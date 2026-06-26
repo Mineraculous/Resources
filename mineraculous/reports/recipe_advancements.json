@@ -1,4 +1,9 @@
 [
+  "mineraculous:recipes/building_blocks/almond_planks",
+  "mineraculous:recipes/building_blocks/almond_wood",
+  "mineraculous:recipes/building_blocks/stripped_almond_wood",
+  "mineraculous:recipes/combat/rope",
+  "mineraculous:recipes/decorations/almond_hanging_sign",
   "mineraculous:recipes/decorations/cheese_pot",
   "mineraculous:recipes/decorations/oven",
   "minecraft:recipes/food/baked_potato_from_oven_cooking",
@@ -34,5 +39,7 @@
   "mineraculous:recipes/misc/cat_armor_trim_smithing_template",
   "mineraculous:recipes/misc/cat_armor_trim_smithing_template_smithing_trim",
   "mineraculous:recipes/misc/ladybug_armor_trim_smithing_template",
-  "mineraculous:recipes/misc/ladybug_armor_trim_smithing_template_smithing_trim"
+  "mineraculous:recipes/misc/ladybug_armor_trim_smithing_template_smithing_trim",
+  "mineraculous:recipes/transportation/almond_boat",
+  "mineraculous:recipes/transportation/almond_chest_boat"
 ]

@@ -1,5 +1,141 @@
 {
   "default_name": "Kitty",
-  "passive_abilities": "mineraculous:cat_vision",
-  "power_source": "mineraculous:cataclysm"
+  "passive_abilities": [
+    {
+      "ability": {
+        "branches": [
+          {
+            "actions": [
+              {
+                "type": "mineraculous:toggleable_special_effects",
+                "effects": "minecraft:night_vision",
+                "shader": "shader"
+              }
+            ]
+          }
+        ],
+        "look_properties": {
+          "shader": {
+            "type": "mineraculous:resource_location",
+            "default_value": "mineraculous:shaders/post/cat_vision.json"
+          }
+        }
+      },
+      "id": "cat_vision"
+    }
+  ],
+  "power_source": {
+    "ability": {
+      "branches": [
+        {
+          "actions": [
+            {
+              "type": "mineraculous:replace_adjacent_blocks",
+              "apply_sound": "apply_sound",
+              "invalid_blocks": {
+                "blocks": "#mineraculous:cataclysm_immune"
+              },
+              "replacement_block": {
+                "Name": "mineraculous:cataclysm_block"
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "type": "mineraculous:target",
+              "invalid_ability_targets": {
+                "type": "mineraculous:block",
+                "block": {
+                  "blocks": "#mineraculous:cataclysm_immune"
+                }
+              },
+              "valid_ability_targets": {
+                "type": "mineraculous:block"
+              }
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "type": "mineraculous:apply_effects_or_destroy",
+              "apply_sound": "apply_sound",
+              "drop_item": {
+                "id": "mineraculous:cataclysm_dust"
+              },
+              "effects": "mineraculous:cataclysm",
+              "override_kill_credit": true
+            }
+          ],
+          "conditions": [
+            {
+              "type": "mineraculous:target",
+              "invalid_ability_targets": {
+                "type": "mineraculous:entity",
+                "entity": {
+                  "type": "#mineraculous:cataclysm_immune"
+                }
+              },
+              "valid_ability_targets": {
+                "type": "mineraculous:entity"
+              }
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "type": "mineraculous:replace_item_in_main_hand",
+              "apply_sound": "apply_sound",
+              "break_original": true,
+              "replacement_item": {
+                "id": "mineraculous:cataclysm_dust"
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "type": "mineraculous:performer",
+              "invalid_entities": {
+                "equipment": {
+                  "mainhand": {
+                    "items": "#mineraculous:cataclysm_immune"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "type": "mineraculous:right_hand_particles",
+              "particle": "particle"
+            }
+          ]
+        }
+      ],
+      "look_properties": {
+        "apply_sound": {
+          "type": "mineraculous:sound",
+          "default_value": "mineraculous:cataclysm_use",
+          "optional": true
+        },
+        "particle": {
+          "type": "mineraculous:particle",
+          "default_value": {
+            "type": "mineraculous:black_orb"
+          }
+        },
+        "start_sound": {
+          "type": "mineraculous:sound",
+          "default_value": "mineraculous:cataclysm_activate",
+          "optional": true
+        }
+      }
+    },
+    "continuous_ticks": 20,
+    "id": "cataclysm",
+    "start_sound": "start_sound"
+  }
 }
