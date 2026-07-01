@@ -1,5 +1,10 @@
 {
-  "default_name": "Bugaboo",
+  "conditions": [
+    {
+      "type": "mineraculous:minimum_power_level",
+      "level": 2
+    }
+  ],
   "passive_abilities": [
     {
       "ability": {
@@ -14,7 +19,7 @@
             ]
           }
         ],
-        "look_properties": {
+        "customization_settings": {
           "shader": {
             "type": "mineraculous:resource_location",
             "default_value": "mineraculous:shaders/post/cat_vision.json"
@@ -49,7 +54,7 @@
             }
           }
         ],
-        "look_properties": {
+        "customization_settings": {
           "face_mask_texture": {
             "type": "mineraculous:resource_location",
             "default_value": "mineraculous:textures/entity/player/face_mask/kamiko.png"

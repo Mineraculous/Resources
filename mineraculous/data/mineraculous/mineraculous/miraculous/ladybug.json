@@ -16,11 +16,15 @@
         {
           "type": "mineraculous:source",
           "valid_ability_sources": {
-            "tool": {}
+            "tool": {
+              "predicates": {
+                "mineraculous:active": true
+              }
+            }
           }
         }
       ],
-      "look_properties": {
+      "customization_settings": {
         "start_sound": {
           "type": "mineraculous:sound",
           "default_value": "mineraculous:lucky_charm_activate",
@@ -31,7 +35,7 @@
     "id": "lucky_charm"
   },
   "color": "#DD1731",
-  "look_properties": {
+  "customization_settings": {
     "mineraculous:transform_sound": "mineraculous:ladybug_transform",
     "mineraculous:transformation_frames": 9
   },
@@ -45,18 +49,21 @@
                 "type": "mineraculous:revert_lucky_charm_targets_ability_effects",
                 "revert_sound": "revert_sound"
               }
+            ],
+            "conditions": [
+              {
+                "type": "mineraculous:source",
+                "invalid_ability_sources": {
+                  "tool": {}
+                },
+                "valid_ability_sources": {
+                  "power_active": true
+                }
+              }
             ]
           }
         ],
-        "conditions": [
-          {
-            "type": "mineraculous:source",
-            "valid_ability_sources": {
-              "power_active": true
-            }
-          }
-        ],
-        "look_properties": {
+        "customization_settings": {
           "revert_sound": {
             "type": "mineraculous:sound",
             "default_value": "mineraculous:miraculous_ladybug_activate",

@@ -27,6 +27,17 @@
         "type": "modonomicon:none"
       },
       "show_title_separator": true,
+      "text": "book.mineraculous.wiki.miraculouses.command.give.text",
+      "title": "book.mineraculous.wiki.miraculouses.command.give.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
       "text": "book.mineraculous.wiki.miraculouses.command.power_level.text",
       "title": "book.mineraculous.wiki.miraculouses.command.power_level.title",
       "use_markdown_in_title": false

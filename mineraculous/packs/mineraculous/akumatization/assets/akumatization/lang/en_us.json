@@ -7,7 +7,7 @@
   "akumatization.configuration.enable_kamiko_replication": "Enable Akuma Replication",
   "akumatization.configuration.enable_kamiko_replication.tooltip": "Enable replication of akumas when left uncaptured",
   "akumatization.configuration.enable_kamikotization_rejection": "Enable Akumatization Rejection",
-  "akumatization.configuration.enable_kamikotization_rejection.tooltip": "Enable rejection of akumatization by the victim",
+  "akumatization.configuration.enable_kamikotization_rejection.tooltip": "Enable rejection of akumatization by the receiver",
   "akumatization.configuration.force_kamikotize_creative_players": "Force Akumatize Creative Players",
   "akumatization.configuration.force_kamikotize_creative_players.tooltip": "Force akumatize players even in creative mode",
   "akumatization.configuration.max_kamiko_replicas": "Maximum Akuma Replicas",

@@ -1,5 +1,4 @@
 {
-  "default_name": "Kitty",
   "passive_abilities": [
     {
       "ability": {
@@ -14,7 +13,7 @@
             ]
           }
         ],
-        "look_properties": {
+        "customization_settings": {
           "shader": {
             "type": "mineraculous:resource_location",
             "default_value": "mineraculous:shaders/post/cat_vision.json"
@@ -103,6 +102,12 @@
                   }
                 }
               }
+            },
+            {
+              "type": "mineraculous:source",
+              "invalid_ability_sources": {
+                "tool": {}
+              }
             }
           ]
         },
@@ -115,7 +120,7 @@
           ]
         }
       ],
-      "look_properties": {
+      "customization_settings": {
         "apply_sound": {
           "type": "mineraculous:sound",
           "default_value": "mineraculous:cataclysm_use",

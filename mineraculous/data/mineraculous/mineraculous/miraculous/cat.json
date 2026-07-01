@@ -79,6 +79,12 @@
                   }
                 }
               }
+            },
+            {
+              "type": "mineraculous:source",
+              "invalid_ability_sources": {
+                "tool": {}
+              }
             }
           ]
         },
@@ -91,7 +97,7 @@
           ]
         }
       ],
-      "look_properties": {
+      "customization_settings": {
         "apply_sound": {
           "type": "mineraculous:sound",
           "default_value": "mineraculous:cataclysm_use",
@@ -115,7 +121,7 @@
     "start_sound": "start_sound"
   },
   "color": "#C6F800",
-  "look_properties": {
+  "customization_settings": {
     "mineraculous:transform_sound": "mineraculous:cat_transform",
     "mineraculous:transformation_frames": 9
   },
@@ -133,7 +139,7 @@
             ]
           }
         ],
-        "look_properties": {
+        "customization_settings": {
           "shader": {
             "type": "mineraculous:resource_location",
             "default_value": "mineraculous:shaders/post/cat_vision.json"

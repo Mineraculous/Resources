@@ -101,15 +101,14 @@
     "mineraculous:carrier",
     "mineraculous:cat_staff_mode",
     "mineraculous:charged",
+    "mineraculous:customization_data",
     "mineraculous:eating_item",
     "mineraculous:hide_enchantments",
-    "mineraculous:kamiko_data",
     "mineraculous:kamikotization",
     "mineraculous:kamikotizing",
     "mineraculous:kwami_foods",
     "mineraculous:kwami_id",
     "mineraculous:ladybug_yoyo_mode",
-    "mineraculous:look_data",
     "mineraculous:lucky_charm",
     "mineraculous:miraculous",
     "mineraculous:miraculous_id",
@@ -238,6 +237,7 @@
     "mineraculous:waxed_time_honored_cheese_wedge"
   ],
   "minecraft:item_sub_predicate_type": [
+    "mineraculous:active",
     "mineraculous:lucky_charm"
   ],
   "minecraft:loot_condition_type": [
@@ -387,7 +387,7 @@
     "mineraculous:spectation",
     "mineraculous:spectation_interrupted",
     "mineraculous:toggle_special_effects",
-    "mineraculous:transferable_source_data"
+    "mineraculous:transferable_spectator_data"
   ],
   "mineraculous:ability_target_predicate": [
     "mineraculous:block",
@@ -397,10 +397,23 @@
   "mineraculous:ability_task": [
     "mineraculous:replace_blocks"
   ],
+  "mineraculous:customization_setting_type": [
+    "mineraculous:particle",
+    "mineraculous:positive_number",
+    "mineraculous:resource_location",
+    "mineraculous:sound",
+    "mineraculous:string"
+  ],
   "mineraculous:kamikotization": [
     "mineraculous:cat",
     "mineraculous:ladybug",
     "mineraculous:stormy"
+  ],
+  "mineraculous:kamikotization_condition": [
+    "mineraculous:giver",
+    "mineraculous:item",
+    "mineraculous:minimum_power_level",
+    "mineraculous:receiver"
   ],
   "mineraculous:look_context": [
     "mineraculous:hidden_miraculous",
@@ -414,13 +427,6 @@
     "mineraculous:valid_kamikotizations",
     "mineraculous:valid_miraculouses"
   ],
-  "mineraculous:look_property_type": [
-    "mineraculous:particle",
-    "mineraculous:positive_number",
-    "mineraculous:resource_location",
-    "mineraculous:sound",
-    "mineraculous:string"
-  ],
   "mineraculous:miraculous": [
     "mineraculous:butterfly",
     "mineraculous:cat",
@@ -433,11 +439,10 @@
   ],
   "neoforge:attachment_types": [
     "mineraculous:inventory_trackers",
-    "mineraculous:kamikotization",
+    "mineraculous:kamikotizations",
     "mineraculous:leashing_ladybug_yoyo",
     "mineraculous:miraculous_ladybug_trigger",
     "mineraculous:miraculouses",
-    "mineraculous:old_kamikotization",
     "mineraculous:perching_cat_staff",
     "mineraculous:performer_ability",
     "mineraculous:rope_override",
@@ -453,20 +458,17 @@
     "mineraculous:add_rare_almond_trees"
   ],
   "neoforge:entity_data_serializers": [
-    "mineraculous:ability_instance_list",
+    "mineraculous:kamiko_owner_properties",
+    "mineraculous:kamiko_replica_data",
     "mineraculous:kwami_summoning_appearance",
-    "mineraculous:look_data",
     "mineraculous:minion_kamikotization_data",
     "mineraculous:miraculous",
     "mineraculous:miraculous_ladybug_target_data",
-    "mineraculous:optional_ability_instance",
-    "mineraculous:optional_kamikotization",
     "mineraculous:optional_ladybug_yoyo_mode",
-    "mineraculous:optional_resource_location",
     "mineraculous:uuid"
   ],
   "neoforge:synced_attachment_types": [
-    "mineraculous:kamikotization",
+    "mineraculous:kamikotizations",
     "mineraculous:leashing_ladybug_yoyo",
     "mineraculous:miraculous_ladybug_trigger",
     "mineraculous:miraculouses",

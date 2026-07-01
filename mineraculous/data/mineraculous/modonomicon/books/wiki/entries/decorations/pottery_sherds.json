@@ -5,7 +5,7 @@
   "description": "book.mineraculous.wiki.decorations.pottery_sherds.description",
   "hide_while_locked": false,
   "icon": {
-    "item": "mineraculous:ladybug_pottery_sherd"
+    "item": "mineraculous:butterfly_pottery_sherd"
   },
   "name": "book.mineraculous.wiki.decorations.pottery_sherds.name",
   "pages": [

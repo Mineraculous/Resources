@@ -1,8 +1,13 @@
 {
-  "default_name": "Stormy Tester",
-  "item_predicate": {
-    "items": "#minecraft:banners"
-  },
+  "conditions": [
+    {
+      "type": "mineraculous:item",
+      "message": "Requires a banner",
+      "predicate": {
+        "items": "#minecraft:banners"
+      }
+    }
+  ],
   "power_source": {
     "components": {
       "minecraft:enchantments": {

@@ -72,6 +72,12 @@
     ],
     "subtitle": "subtitles.item.ladybug_yoyo.spin"
   },
+  "kamikotization.begin": {
+    "sounds": [
+      "mineraculous:kamikotization/begin"
+    ],
+    "subtitle": "subtitles.kamikotization.begin"
+  },
   "kamikotization.detransform": {
     "sounds": [
       "mineraculous:kamikotization/detransform"
