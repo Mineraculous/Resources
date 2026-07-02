@@ -1,0 +1,41 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "items",
+  "description": "book.mineraculous.wiki.items.rope.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "mineraculous:rope"
+  },
+  "name": "book.mineraculous.wiki.items.rope.name",
+  "pages": [
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:rope"
+      },
+      "text": "book.mineraculous.wiki.items.rope.overview.text",
+      "title": "book.mineraculous.wiki.items.rope.overview.title"
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.mineraculous.wiki.items.rope.uses.text",
+      "title": "book.mineraculous.wiki.items.rope.uses.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 1,
+  "x": 0,
+  "y": 0
+}

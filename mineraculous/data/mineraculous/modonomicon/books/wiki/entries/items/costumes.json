@@ -1,0 +1,54 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "items",
+  "description": "book.mineraculous.wiki.items.costumes.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "mineraculous:fake_miraculous"
+  },
+  "name": "book.mineraculous.wiki.items.costumes.name",
+  "pages": [
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:fake_miraculous"
+      },
+      "text": "book.mineraculous.wiki.items.costumes.overview.text",
+      "title": "book.mineraculous.wiki.items.costumes.overview.title"
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.mineraculous.wiki.items.costumes.obtaining.text",
+      "title": "book.mineraculous.wiki.items.costumes.obtaining.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:fake_miraculous_mask"
+      },
+      "text": "book.mineraculous.wiki.items.costumes.wearing.text",
+      "title": "book.mineraculous.wiki.items.costumes.wearing.title"
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 0,
+  "x": 0,
+  "y": 0
+}

@@ -87,10 +87,10 @@
         "type": "modonomicon:none"
       },
       "images": [
-        "mineraculous:textures/modonomicon/wiki/miraculouses/cat/staff/abilities.png"
+        "mineraculous:textures/modonomicon/wiki/miraculouses/cat/staff/modes.png"
       ],
-      "text": "book.mineraculous.wiki.miraculouses.cat.staff_abilities.text",
-      "title": "book.mineraculous.wiki.miraculouses.cat.staff_abilities.title",
+      "text": "book.mineraculous.wiki.miraculouses.cat.staff_modes.text",
+      "title": "book.mineraculous.wiki.miraculouses.cat.staff_modes.title",
       "use_legacy_rendering": false
     },
     {

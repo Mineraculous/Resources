@@ -1,0 +1,50 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "getting_started",
+  "description": "book.mineraculous.wiki.getting_started.welcome.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "minecraft:nether_star"
+  },
+  "name": "book.mineraculous.wiki.getting_started.welcome.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.mineraculous.wiki.getting_started.welcome.introduction.text",
+      "title": "book.mineraculous.wiki.getting_started.welcome.introduction.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.mineraculous.wiki.getting_started.welcome.what_are_miraculouses.text",
+      "title": "book.mineraculous.wiki.getting_started.welcome.what_are_miraculouses.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.mineraculous.wiki.getting_started.welcome.core_mechanics.text",
+      "title": "book.mineraculous.wiki.getting_started.welcome.core_mechanics.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 0,
+  "x": 0,
+  "y": 0
+}

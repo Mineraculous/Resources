@@ -87,10 +87,10 @@
         "type": "modonomicon:none"
       },
       "images": [
-        "mineraculous:textures/modonomicon/wiki/miraculouses/butterfly/cane/abilities.png"
+        "mineraculous:textures/modonomicon/wiki/miraculouses/butterfly/cane/modes.png"
       ],
-      "text": "book.mineraculous.wiki.miraculouses.butterfly.cane_abilities.text",
-      "title": "book.mineraculous.wiki.miraculouses.butterfly.cane_abilities.title",
+      "text": "book.mineraculous.wiki.miraculouses.butterfly.cane_modes.text",
+      "title": "book.mineraculous.wiki.miraculouses.butterfly.cane_modes.title",
       "use_legacy_rendering": false
     },
     {

@@ -1,0 +1,43 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "food",
+  "description": "book.mineraculous.wiki.food.workstations.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "mineraculous:oven"
+  },
+  "name": "book.mineraculous.wiki.food.workstations.name",
+  "pages": [
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:oven"
+      },
+      "text": "book.mineraculous.wiki.food.workstations.oven.text",
+      "title": "book.mineraculous.wiki.food.workstations.oven.title"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:cheese_pot"
+      },
+      "text": "book.mineraculous.wiki.food.workstations.cheese_pot.text",
+      "title": "book.mineraculous.wiki.food.workstations.cheese_pot.title"
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 3,
+  "x": 0,
+  "y": 0
+}

@@ -22,6 +22,19 @@
       "text": "book.mineraculous.wiki.flora_and_fauna.trees.almond.text",
       "title": "book.mineraculous.wiki.flora_and_fauna.trees.almond.title",
       "use_legacy_rendering": false
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:almond_planks"
+      },
+      "text": "book.mineraculous.wiki.flora_and_fauna.trees.wood.text",
+      "title": "book.mineraculous.wiki.flora_and_fauna.trees.wood.title"
     }
   ],
   "show_when_any_parent_unlocked": false,

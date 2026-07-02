@@ -27,8 +27,8 @@
         "type": "modonomicon:none"
       },
       "show_title_separator": true,
-      "text": "book.mineraculous.wiki.apis.abilities.type.text",
-      "title": "book.mineraculous.wiki.apis.abilities.type.title",
+      "text": "book.mineraculous.wiki.apis.abilities.structure.text",
+      "title": "book.mineraculous.wiki.apis.abilities.structure.title",
       "use_markdown_in_title": false
     }
   ],

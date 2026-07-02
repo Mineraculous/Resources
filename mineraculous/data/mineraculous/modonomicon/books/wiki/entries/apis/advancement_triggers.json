@@ -41,8 +41,8 @@
         "type": "modonomicon:none"
       },
       "show_title_separator": true,
-      "text": "book.mineraculous.wiki.apis.advancement_triggers.performed_miraculous_active_ability.text",
-      "title": "book.mineraculous.wiki.apis.advancement_triggers.performed_miraculous_active_ability.title",
+      "text": "book.mineraculous.wiki.apis.advancement_triggers.performed_ability.text",
+      "title": "book.mineraculous.wiki.apis.advancement_triggers.performed_ability.title",
       "use_markdown_in_title": false
     },
     {
@@ -76,17 +76,6 @@
       "show_title_separator": true,
       "text": "book.mineraculous.wiki.apis.advancement_triggers.transformed_kamikotization.text",
       "title": "book.mineraculous.wiki.apis.advancement_triggers.transformed_kamikotization.title",
-      "use_markdown_in_title": false
-    },
-    {
-      "type": "modonomicon:text",
-      "anchor": "",
-      "condition": {
-        "type": "modonomicon:none"
-      },
-      "show_title_separator": true,
-      "text": "book.mineraculous.wiki.apis.advancement_triggers.performed_kamikotization_active_ability.text",
-      "title": "book.mineraculous.wiki.apis.advancement_triggers.performed_kamikotization_active_ability.title",
       "use_markdown_in_title": false
     }
   ],

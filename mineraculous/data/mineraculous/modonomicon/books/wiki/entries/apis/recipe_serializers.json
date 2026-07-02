@@ -38,6 +38,17 @@
         "type": "modonomicon:none"
       },
       "show_title_separator": true,
+      "text": "book.mineraculous.wiki.apis.recipe_serializers.cheese_wedge.text",
+      "title": "book.mineraculous.wiki.apis.recipe_serializers.cheese_wedge.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
       "text": "book.mineraculous.wiki.apis.recipe_serializers.transmute.text",
       "title": "book.mineraculous.wiki.apis.recipe_serializers.transmute.title",
       "use_markdown_in_title": false

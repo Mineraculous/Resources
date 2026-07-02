@@ -17,7 +17,7 @@
         "type": "modonomicon:none"
       },
       "images": [
-        "mineraculous:textures/modonomicon/wiki/dependencies/jade/oven.png"
+        "mineraculous:textures/modonomicon/wiki/dependencies/jade.png"
       ],
       "text": "book.mineraculous.wiki.dependencies.jade.oven.text",
       "title": "book.mineraculous.wiki.dependencies.jade.oven.title",

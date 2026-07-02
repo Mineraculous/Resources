@@ -87,10 +87,10 @@
         "type": "modonomicon:none"
       },
       "images": [
-        "mineraculous:textures/modonomicon/wiki/miraculouses/ladybug/yoyo/abilities.png"
+        "mineraculous:textures/modonomicon/wiki/miraculouses/ladybug/yoyo/modes.png"
       ],
-      "text": "book.mineraculous.wiki.miraculouses.ladybug.yoyo_abilities.text",
-      "title": "book.mineraculous.wiki.miraculouses.ladybug.yoyo_abilities.title",
+      "text": "book.mineraculous.wiki.miraculouses.ladybug.yoyo_modes.text",
+      "title": "book.mineraculous.wiki.miraculouses.ladybug.yoyo_modes.title",
       "use_legacy_rendering": false
     },
     {

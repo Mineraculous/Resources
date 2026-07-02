@@ -1,0 +1,43 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "items",
+  "description": "book.mineraculous.wiki.items.cataclysm_dust.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "mineraculous:cataclysm_dust"
+  },
+  "name": "book.mineraculous.wiki.items.cataclysm_dust.name",
+  "pages": [
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:cataclysm_dust"
+      },
+      "text": "book.mineraculous.wiki.items.cataclysm_dust.overview.text",
+      "title": "book.mineraculous.wiki.items.cataclysm_dust.overview.title"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:cataclysm_block"
+      },
+      "text": "book.mineraculous.wiki.items.cataclysm_dust.cataclysm_block.text",
+      "title": "book.mineraculous.wiki.items.cataclysm_dust.cataclysm_block.title"
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 3,
+  "x": 0,
+  "y": 0
+}
