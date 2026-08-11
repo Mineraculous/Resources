@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "get_kamikotized": {
+      "trigger": "mineraculous:transformed_kamikotization"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "mineraculouskamikotizations:textures/gui/advancements/backgrounds/kamikotization.png",
+    "description": {
+      "translate": "advancement.mineraculouskamikotizations.kamikotization.root.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mineraculous:kamikotization_mask"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancement.mineraculouskamikotizations.kamikotization.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_kamikotized"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

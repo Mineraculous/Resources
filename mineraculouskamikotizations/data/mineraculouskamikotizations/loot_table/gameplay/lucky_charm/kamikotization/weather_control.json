@@ -1,0 +1,30 @@
+{
+  "type": "mineraculous:lucky_charm",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "mineraculous:power_level_multiplier",
+                "base": {
+                  "type": "minecraft:uniform",
+                  "max": 4.0,
+                  "min": 1.0
+                }
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:wind_charge"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mineraculouskamikotizations:gameplay/lucky_charm/kamikotization/weather_control"
+}

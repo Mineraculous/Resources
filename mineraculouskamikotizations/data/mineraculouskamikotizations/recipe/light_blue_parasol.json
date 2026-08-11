@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:light_blue_carpet"
+    },
+    "S": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "pattern": [
+    " C ",
+    "CSC",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mineraculouskamikotizations:light_blue_parasol"
+  }
+}

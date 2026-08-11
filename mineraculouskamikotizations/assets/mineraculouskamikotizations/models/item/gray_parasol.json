@@ -1,0 +1,39 @@
+{
+  "base": {
+    "parent": "mineraculouskamikotizations:item/parasol_closed",
+    "textures": {
+      "particle": "mineraculouskamikotizations:item/gray_parasol",
+      "texture": "mineraculouskamikotizations:item/gray_parasol"
+    }
+  },
+  "gui_light": "front",
+  "loader": "neoforge:separate_transforms",
+  "overrides": [
+    {
+      "model": "mineraculouskamikotizations:item/gray_parasol_open",
+      "predicate": {
+        "mineraculous:active": 1.0
+      }
+    }
+  ],
+  "perspectives": {
+    "fixed": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "mineraculouskamikotizations:item/gray_parasol_inventory"
+      }
+    },
+    "ground": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "mineraculouskamikotizations:item/gray_parasol_inventory"
+      }
+    },
+    "gui": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "mineraculouskamikotizations:item/gray_parasol_inventory"
+      }
+    }
+  }
+}

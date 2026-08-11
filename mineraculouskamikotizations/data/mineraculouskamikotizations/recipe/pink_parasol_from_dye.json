@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "tag": "mineraculouskamikotizations:parasols"
+    },
+    {
+      "tag": "c:dyes/pink"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mineraculouskamikotizations:pink_parasol"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "parent": "mineraculouskamikotizations:kamikotization/root",
+  "criteria": {
+    "transform_weather_control": {
+      "conditions": {
+        "kamikotization": "mineraculouskamikotizations:weather_control"
+      },
+      "trigger": "mineraculous:transformed_kamikotization"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.mineraculouskamikotizations.kamikotization.transform_weather_control.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mineraculouskamikotizations:weather_control_parasol"
+    },
+    "title": {
+      "translate": "advancement.mineraculouskamikotizations.kamikotization.transform_weather_control.title"
+    }
+  },
+  "requirements": [
+    [
+      "transform_weather_control"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

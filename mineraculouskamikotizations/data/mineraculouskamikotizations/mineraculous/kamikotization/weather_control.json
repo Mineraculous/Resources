@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "mineraculous:item",
+      "message": {
+        "translate": "kamikotization_condition.mineraculous.item.requires_weather_control_kamikotizable"
+      },
+      "predicate": {
+        "count": 1,
+        "items": "#mineraculouskamikotizations:kamikotizable/weather_control"
+      }
+    }
+  ],
+  "power_source": {
+    "count": 1,
+    "id": "mineraculouskamikotizations:weather_control_parasol"
+  }
+}
