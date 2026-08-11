@@ -1,0 +1,30 @@
+{
+  "type": "mineraculous:lucky_charm",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "expand": true,
+          "name": "mineraculous:lucky_charms/generic"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "mineraculous:nearby_block",
+              "predicate": {
+                "blocks": "minecraft:jukebox"
+              },
+              "radius": 16
+            }
+          ],
+          "name": "mineraculous:music_disc_miraculous_theme"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mineraculous:gameplay/lucky_charm/generic"
+}

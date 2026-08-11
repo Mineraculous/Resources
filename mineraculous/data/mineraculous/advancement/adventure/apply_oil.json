@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "apply_oil": {
+      "conditions": {
+        "item": {
+          "items": "mineraculous:oil"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.mineraculous.adventure.apply_oil.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mineraculous:oil"
+    },
+    "title": {
+      "translate": "advancement.mineraculous.adventure.apply_oil.title"
+    }
+  },
+  "requirements": [
+    [
+      "apply_oil"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

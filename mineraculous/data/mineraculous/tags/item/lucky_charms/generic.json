@@ -1,5 +1,8 @@
 {
   "values": [
+    "mineraculous:glue",
+    "mineraculous:tape",
+    "mineraculous:oil",
     "mineraculous:rope",
     "minecraft:apple",
     "#c:tools",

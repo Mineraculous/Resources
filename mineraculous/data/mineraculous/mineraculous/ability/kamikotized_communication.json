@@ -1,0 +1,48 @@
+{
+  "branches": [
+    {
+      "actions": [
+        {
+          "type": "mineraculous:spectate_entity",
+          "can_depower": true,
+          "can_hurt": true,
+          "can_private_chat": true,
+          "face_mask_texture": "face_mask_texture",
+          "invalid_entities": {
+            "type": "mineraculous:controlled_player"
+          },
+          "shader": "shader",
+          "start_sound": "start_sound",
+          "valid_entities": {
+            "type_specific": {
+              "type": "mineraculous:kamikotization"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "mineraculous:source",
+      "valid_ability_sources": {
+        "power_active": true
+      }
+    }
+  ],
+  "customization_settings": {
+    "face_mask_texture": {
+      "type": "mineraculous:resource_location",
+      "default_value": "mineraculous:textures/entity/player/face_mask/kamiko.png"
+    },
+    "shader": {
+      "type": "mineraculous:resource_location",
+      "default_value": "mineraculous:shaders/post/kamiko.json"
+    },
+    "start_sound": {
+      "type": "mineraculous:sound",
+      "default_value": "mineraculous:kamikotized_communication_activate",
+      "optional": true
+    }
+  }
+}

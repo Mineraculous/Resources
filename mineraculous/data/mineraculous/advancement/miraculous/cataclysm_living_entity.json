@@ -1,9 +1,9 @@
 {
   "parent": "mineraculous:miraculous/transform_cat",
   "criteria": {
-    "cataclysm_entity": {
+    "cataclysm_living_entity": {
       "conditions": {
-        "id": "cataclysm",
+        "key": "mineraculous:cataclysm",
         "source": {
           "key": {
             "element": "mineraculous:cat",
@@ -26,7 +26,7 @@
     },
     "icon": {
       "count": 1,
-      "id": "mineraculous:cataclysm_dust"
+      "id": "minecraft:wither_rose"
     },
     "title": {
       "translate": "advancement.mineraculous.miraculous.cataclysm_living_entity.title"
@@ -34,7 +34,7 @@
   },
   "requirements": [
     [
-      "cataclysm_entity"
+      "cataclysm_living_entity"
     ]
   ],
   "sends_telemetry_event": true

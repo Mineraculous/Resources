@@ -9,7 +9,7 @@
   "entry_textures": "modonomicon:textures/gui/entry_textures.png",
   "icon": {
     "height": 16,
-    "texture": "mineraculous:textures/modonomicon/wiki/expansions/akumatization/icon.png",
+    "texture": "mineraculous:textures/modonomicon/wiki/expansions/kamikotizations/icon.png",
     "width": 16
   },
   "max_scroll_x": 512,

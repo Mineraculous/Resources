@@ -1,0 +1,19 @@
+{
+  "branches": [
+    {
+      "actions": [
+        {
+          "type": "mineraculous:toggleable_special_effects",
+          "effects": "minecraft:night_vision",
+          "shader": "shader"
+        }
+      ]
+    }
+  ],
+  "customization_settings": {
+    "shader": {
+      "type": "mineraculous:resource_location",
+      "default_value": "mineraculous:shaders/post/cat_vision.json"
+    }
+  }
+}

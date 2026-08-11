@@ -1,0 +1,8 @@
+{
+  "comparator_output": 10,
+  "description": {
+    "translate": "jukebox_song.mineraculous.miraculous_theme"
+  },
+  "length_in_seconds": 113.0,
+  "sound_event": "mineraculous:music_disc_miraculous_theme"
+}

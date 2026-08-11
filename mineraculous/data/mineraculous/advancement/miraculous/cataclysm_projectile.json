@@ -1,0 +1,45 @@
+{
+  "parent": "mineraculous:miraculous/transform_cat",
+  "criteria": {
+    "cataclysm_projectile": {
+      "conditions": {
+        "key": "mineraculous:cataclysm",
+        "source": {
+          "key": {
+            "element": "mineraculous:cat",
+            "registry": "mineraculous:miraculous"
+          }
+        },
+        "target": {
+          "type": "mineraculous:entity",
+          "entity": {
+            "type": "#minecraft:impact_projectiles"
+          }
+        }
+      },
+      "trigger": "mineraculous:performed_ability"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.mineraculous.miraculous.cataclysm_projectile.desc"
+    },
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "advancement.mineraculous.miraculous.cataclysm_projectile.title"
+    }
+  },
+  "requirements": [
+    [
+      "cataclysm_projectile"
+    ]
+  ],
+  "rewards": {
+    "experience": 20
+  },
+  "sends_telemetry_event": true
+}

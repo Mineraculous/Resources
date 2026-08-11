@@ -9,6 +9,7 @@
   "mineraculous:cheese",
   "mineraculous:cheese_blocks",
   "curios:earrings",
+  "mineraculous:flammable",
   "c:foods",
   "c:foods/cheese_blocks",
   "c:foods/cheeses",
@@ -23,12 +24,14 @@
   "mineraculous:kwami_treats/ladybug",
   "mineraculous:lucky_charm_shader_immune",
   "mineraculous:lucky_charms/generic",
+  "mineraculous:lucky_charms/shooting_projectiles",
+  "mineraculous:lucky_charms/warden_distractors",
   "mineraculous:miraculous_transformers",
+  "c:music_discs",
   "curios:ring",
-  "mineraculous:shooting_projectiles",
+  "c:ropes",
   "c:stripped_logs",
   "c:stripped_woods",
   "mineraculous:tough",
-  "c:villager_job_sites",
-  "mineraculous:warden_distractors"
+  "c:villager_job_sites"
 ]

@@ -88,6 +88,17 @@
       "text": "book.mineraculous.wiki.miraculouses.kwamis.transferring_and_renouncing.text",
       "title": "book.mineraculous.wiki.miraculouses.kwamis.transferring_and_renouncing.title",
       "use_legacy_rendering": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.mineraculous.wiki.miraculouses.kwamis.cataclysm_and_revival.text",
+      "title": "book.mineraculous.wiki.miraculouses.kwamis.cataclysm_and_revival.title",
+      "use_markdown_in_title": false
     }
   ],
   "show_when_any_parent_unlocked": false,

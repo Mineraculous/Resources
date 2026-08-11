@@ -1,0 +1,30 @@
+{
+  "branches": [
+    {
+      "actions": [
+        {
+          "type": "mineraculous:revert_lucky_charm_targets_ability_effects",
+          "revert_sound": "revert_sound"
+        }
+      ],
+      "conditions": [
+        {
+          "type": "mineraculous:source",
+          "invalid_ability_sources": {
+            "tool": {}
+          },
+          "valid_ability_sources": {
+            "power_active": true
+          }
+        }
+      ]
+    }
+  ],
+  "customization_settings": {
+    "revert_sound": {
+      "type": "mineraculous:sound",
+      "default_value": "mineraculous:miraculous_ladybug_activate",
+      "optional": true
+    }
+  }
+}

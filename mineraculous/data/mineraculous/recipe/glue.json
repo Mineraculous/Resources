@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "tag": "c:slime_balls"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mineraculous:glue"
+  }
+}

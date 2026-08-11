@@ -131,5 +131,11 @@
       "mineraculous:miraculous/ladybug/transform"
     ],
     "subtitle": "subtitles.miraculous.ladybug.transform"
+  },
+  "music_disc.miraculous_theme": {
+    "sounds": [
+      "mineraculous:music_disc/miraculous_theme"
+    ],
+    "subtitle": "subtitles.music_disc.miraculous_theme"
   }
 }

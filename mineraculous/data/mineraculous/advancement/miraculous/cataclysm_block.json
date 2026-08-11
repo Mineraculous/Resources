@@ -3,7 +3,7 @@
   "criteria": {
     "cataclysm_block": {
       "conditions": {
-        "id": "cataclysm",
+        "key": "mineraculous:cataclysm",
         "source": {
           "key": {
             "element": "mineraculous:cat",

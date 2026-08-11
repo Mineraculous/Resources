@@ -1,0 +1,52 @@
+{
+  "parent": "mineraculous:miraculous/obtain_lucky_charm",
+  "criteria": {
+    "obtain_miraculous_theme_music_disc_lucky_charm": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mineraculous:music_disc_miraculous_theme",
+            "predicates": {
+              "mineraculous:lucky_charm": {}
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.mineraculous.miraculous.obtain_miraculous_theme_music_disc_lucky_charm.desc"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "components": {
+        "mineraculous:lucky_charm": {
+          "id": 0,
+          "owner": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "count": 1,
+      "id": "mineraculous:music_disc_miraculous_theme"
+    },
+    "title": {
+      "translate": "advancement.mineraculous.miraculous.obtain_miraculous_theme_music_disc_lucky_charm.title"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_miraculous_theme_music_disc_lucky_charm"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

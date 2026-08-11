@@ -1,21 +1,21 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_lead": {
+    "has_glass_bottle": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:lead"
+            "items": "minecraft:glass_bottle"
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_string": {
+    "has_sunflower": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:string"
+            "items": "minecraft:sunflower"
           }
         ]
       },
@@ -23,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "mineraculous:rope"
+        "recipe": "mineraculous:oil"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -31,13 +31,13 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_string",
-      "has_lead"
+      "has_glass_bottle",
+      "has_sunflower"
     ]
   ],
   "rewards": {
     "recipes": [
-      "mineraculous:rope"
+      "mineraculous:oil"
     ]
   }
 }

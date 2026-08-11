@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "mineraculous:glue"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PGP",
+    "PPP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mineraculous:tape"
+  }
+}

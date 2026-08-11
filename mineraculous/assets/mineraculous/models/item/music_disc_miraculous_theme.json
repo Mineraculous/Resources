@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mineraculous:item/music_disc_miraculous_theme"
+  }
+}

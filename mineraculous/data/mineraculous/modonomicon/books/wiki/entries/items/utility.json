@@ -1,0 +1,69 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "items",
+  "description": "book.mineraculous.wiki.items.utility.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "mineraculous:rope"
+  },
+  "name": "book.mineraculous.wiki.items.utility.name",
+  "pages": [
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:rope"
+      },
+      "text": "book.mineraculous.wiki.items.utility.rope.text",
+      "title": "book.mineraculous.wiki.items.utility.rope.title"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:glue"
+      },
+      "text": "book.mineraculous.wiki.items.utility.glue.text",
+      "title": "book.mineraculous.wiki.items.utility.glue.title"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:tape"
+      },
+      "text": "book.mineraculous.wiki.items.utility.tape.text",
+      "title": "book.mineraculous.wiki.items.utility.tape.title"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:oil"
+      },
+      "text": "book.mineraculous.wiki.items.utility.oil.text",
+      "title": "book.mineraculous.wiki.items.utility.oil.title"
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 1,
+  "x": 0,
+  "y": 0
+}

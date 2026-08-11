@@ -1,0 +1,31 @@
+{
+  "branches": [
+    {
+      "actions": [
+        {
+          "type": "mineraculous:summon_target_dependent_lucky_charm",
+          "start_sound": "start_sound"
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "mineraculous:source",
+      "valid_ability_sources": {
+        "tool": {
+          "predicates": {
+            "mineraculous:active": true
+          }
+        }
+      }
+    }
+  ],
+  "customization_settings": {
+    "start_sound": {
+      "type": "mineraculous:sound",
+      "default_value": "mineraculous:lucky_charm_activate",
+      "optional": true
+    }
+  }
+}

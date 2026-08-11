@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "apply_glue": {
+      "conditions": {
+        "item": {
+          "items": "mineraculous:glue"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.mineraculous.adventure.apply_glue.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mineraculous:glue"
+    },
+    "title": {
+      "translate": "advancement.mineraculous.adventure.apply_glue.title"
+    }
+  },
+  "requirements": [
+    [
+      "apply_glue"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

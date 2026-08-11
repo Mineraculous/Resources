@@ -21,7 +21,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "mineraculous:warden_distractors"
+          "name": "mineraculous:lucky_charms/warden_distractors"
         }
       ],
       "rolls": 1.0

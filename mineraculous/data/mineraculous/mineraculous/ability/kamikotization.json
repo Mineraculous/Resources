@@ -1,0 +1,66 @@
+{
+  "branches": [
+    {
+      "actions": [
+        {
+          "type": "mineraculous:convert_and_tame",
+          "apply_sound": "apply_sound",
+          "conversion": "mineraculous:kamiko"
+        }
+      ],
+      "conditions": [
+        {
+          "type": "mineraculous:target",
+          "invalid_ability_targets": {
+            "type": "mineraculous:entity",
+            "entity": {
+              "type": "minecraft:player"
+            }
+          },
+          "valid_ability_targets": {
+            "type": "mineraculous:entity"
+          }
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "mineraculous:right_hand_particles",
+          "particle": "particle"
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "mineraculous:source",
+      "valid_ability_sources": {
+        "has_stored_entities": false
+      }
+    },
+    {
+      "type": "mineraculous:performer",
+      "valid_entities": {
+        "equipment": {
+          "mainhand": {
+            "count": 0
+          }
+        }
+      }
+    }
+  ],
+  "customization_settings": {
+    "apply_sound": {
+      "type": "mineraculous:sound",
+      "default_value": "mineraculous:kamikotization_activate",
+      "optional": true
+    },
+    "particle": {
+      "type": "mineraculous:particle",
+      "default_value": {
+        "type": "mineraculous:black_orb"
+      }
+    }
+  }
+}

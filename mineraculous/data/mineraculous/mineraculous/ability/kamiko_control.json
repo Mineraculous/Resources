@@ -1,0 +1,42 @@
+{
+  "branches": [
+    {
+      "actions": [
+        {
+          "type": "mineraculous:spectate_entity",
+          "can_depower": true,
+          "face_mask_texture": "face_mask_texture",
+          "invalid_entities": {
+            "type_specific": {
+              "type": "mineraculous:kamiko",
+              "is_replica": true
+            }
+          },
+          "override_owner": true,
+          "shader": "shader",
+          "valid_entities": {
+            "type": "mineraculous:kamiko"
+          }
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "type": "mineraculous:source",
+      "valid_ability_sources": {
+        "power_active": true
+      }
+    }
+  ],
+  "customization_settings": {
+    "face_mask_texture": {
+      "type": "mineraculous:resource_location",
+      "default_value": "mineraculous:textures/entity/player/face_mask/kamiko.png"
+    },
+    "shader": {
+      "type": "mineraculous:resource_location",
+      "default_value": "mineraculous:shaders/post/kamiko.json"
+    }
+  }
+}

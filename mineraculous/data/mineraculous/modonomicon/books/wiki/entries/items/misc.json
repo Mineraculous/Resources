@@ -1,0 +1,69 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "items",
+  "description": "book.mineraculous.wiki.items.misc.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "mineraculous:great_sword"
+  },
+  "name": "book.mineraculous.wiki.items.misc.name",
+  "pages": [
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:great_sword"
+      },
+      "text": "book.mineraculous.wiki.items.misc.great_sword.text",
+      "title": "book.mineraculous.wiki.items.misc.great_sword.title"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:cataclysm_dust"
+      },
+      "text": "book.mineraculous.wiki.items.misc.cataclysm_dust.text",
+      "title": "book.mineraculous.wiki.items.misc.cataclysm_dust.title"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:cataclysm_block"
+      },
+      "text": "book.mineraculous.wiki.items.misc.cataclysm_block.text",
+      "title": "book.mineraculous.wiki.items.misc.cataclysm_block.title"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "count": 1,
+        "item": "mineraculous:music_disc_miraculous_theme"
+      },
+      "text": "book.mineraculous.wiki.items.misc.music_discs.text",
+      "title": "book.mineraculous.wiki.items.misc.music_discs.title"
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 2,
+  "x": 0,
+  "y": 0
+}

@@ -92,7 +92,8 @@
     "mineraculous:miraculouses"
   ],
   "minecraft:damage_type": [
-    "mineraculous:cataclysm"
+    "mineraculous:cataclysm",
+    "mineraculous:mental"
   ],
   "minecraft:data_component_type": [
     "mineraculous:active",
@@ -105,6 +106,7 @@
     "mineraculous:eating_item",
     "mineraculous:hide_enchantments",
     "mineraculous:kamikotization",
+    "mineraculous:kamikotized",
     "mineraculous:kamikotizing",
     "mineraculous:kwami_foods",
     "mineraculous:kwami_id",
@@ -122,11 +124,12 @@
   ],
   "minecraft:entity_sub_predicate_type": [
     "mineraculous:cat_staff",
+    "mineraculous:kamiko",
     "mineraculous:kamikotization"
   ],
   "minecraft:entity_type": [
+    "mineraculous:controlled_player",
     "mineraculous:kamiko",
-    "mineraculous:kamikotized_minion",
     "mineraculous:kwami",
     "mineraculous:lucky_charm_item_spawner",
     "mineraculous:miraculous_ladybug",
@@ -173,6 +176,10 @@
     "mineraculous:exquisite_camembert_wedge",
     "mineraculous:exquisite_cheese_block",
     "mineraculous:exquisite_cheese_wedge",
+    "mineraculous:fake_kamikotization_boots",
+    "mineraculous:fake_kamikotization_chestplate",
+    "mineraculous:fake_kamikotization_leggings",
+    "mineraculous:fake_kamikotization_mask",
     "mineraculous:fake_miraculous",
     "mineraculous:fake_miraculous_boots",
     "mineraculous:fake_miraculous_chestplate",
@@ -182,6 +189,7 @@
     "mineraculous:fresh_camembert_wedge",
     "mineraculous:fresh_cheese_block",
     "mineraculous:fresh_cheese_wedge",
+    "mineraculous:glue",
     "mineraculous:great_sword",
     "mineraculous:kamikotization_boots",
     "mineraculous:kamikotization_chestplate",
@@ -198,6 +206,8 @@
     "mineraculous:miraculous_chestplate",
     "mineraculous:miraculous_leggings",
     "mineraculous:miraculous_mask",
+    "mineraculous:music_disc_miraculous_theme",
+    "mineraculous:oil",
     "mineraculous:orange_hibiscus",
     "mineraculous:oven",
     "mineraculous:pink_hibiscus",
@@ -211,6 +221,7 @@
     "mineraculous:rope",
     "mineraculous:stripped_almond_log",
     "mineraculous:stripped_almond_wood",
+    "mineraculous:tape",
     "mineraculous:time_honored_camembert_block",
     "mineraculous:time_honored_camembert_wedge",
     "mineraculous:time_honored_cheese_block",
@@ -240,17 +251,24 @@
     "mineraculous:active",
     "mineraculous:lucky_charm"
   ],
+  "minecraft:jukebox_song": [
+    "mineraculous:miraculous_theme"
+  ],
   "minecraft:loot_condition_type": [
-    "mineraculous:has_item"
+    "mineraculous:has_item",
+    "mineraculous:nearby_block"
   ],
   "minecraft:loot_function_type": [
     "mineraculous:dye_randomly",
+    "mineraculous:set_kamikotization_randomly",
     "mineraculous:set_miraculous_randomly"
   ],
   "minecraft:loot_number_provider_type": [
     "mineraculous:power_level_multiplier"
   ],
   "minecraft:memory_module_type": [
+    "mineraculous:breaching_target_pos",
+    "mineraculous:control_order",
     "mineraculous:has_replicated",
     "mineraculous:replicas_made",
     "mineraculous:replication_status",
@@ -260,7 +278,9 @@
     "mineraculous:oven"
   ],
   "minecraft:mob_effect": [
-    "mineraculous:cataclysm"
+    "mineraculous:cataclysm",
+    "mineraculous:slippery",
+    "mineraculous:sticky"
   ],
   "minecraft:painting_variant": [
     "mineraculous:butterfly",
@@ -272,7 +292,9 @@
   ],
   "minecraft:particle_type": [
     "mineraculous:black_orb",
+    "mineraculous:falling_oil",
     "mineraculous:kamikotization",
+    "mineraculous:landing_oil",
     "mineraculous:reverting_ladybug",
     "mineraculous:sparkle",
     "mineraculous:summoning_ladybug"
@@ -284,6 +306,7 @@
   "minecraft:recipe_serializer": [
     "mineraculous:campfire_cooking_transmute",
     "mineraculous:crafting_special_cheesewedge",
+    "mineraculous:crafting_special_taperepairitem",
     "mineraculous:oven_cooking",
     "mineraculous:oven_cooking_transmute",
     "mineraculous:smelting_transmute",
@@ -293,6 +316,7 @@
     "mineraculous:oven_cooking"
   ],
   "minecraft:sensor_type": [
+    "mineraculous:attackable_target",
     "mineraculous:player_item_tempting"
   ],
   "minecraft:sound_event": [
@@ -317,7 +341,8 @@
     "mineraculous:ladybug_transform",
     "mineraculous:ladybug_yoyo_spin",
     "mineraculous:lucky_charm_activate",
-    "mineraculous:miraculous_ladybug_activate"
+    "mineraculous:miraculous_ladybug_activate",
+    "mineraculous:music_disc_miraculous_theme"
   ],
   "minecraft:trigger_type": [
     "mineraculous:kamikotized_entity",
@@ -361,6 +386,17 @@
   "minecraft:worldgen/structure_processor": [
     "mineraculous:framed_item_dye"
   ],
+  "mineraculous:ability": [
+    "mineraculous:cat_vision",
+    "mineraculous:cataclysm",
+    "mineraculous:kamiko_control",
+    "mineraculous:kamikotization",
+    "mineraculous:kamikotized_communication",
+    "mineraculous:lucky_charm",
+    "mineraculous:miraculous_ladybug",
+    "mineraculous:passive_luck",
+    "mineraculous:passive_unluck"
+  ],
   "mineraculous:ability_action": [
     "mineraculous:apply_effects_or_destroy",
     "mineraculous:convert_and_tame",
@@ -381,6 +417,7 @@
   "mineraculous:ability_state": [
     "mineraculous:continuous",
     "mineraculous:face_mask",
+    "mineraculous:forced_spectation",
     "mineraculous:kill_credit_override",
     "mineraculous:private_chat",
     "mineraculous:shader",
@@ -397,12 +434,34 @@
   "mineraculous:ability_task": [
     "mineraculous:replace_blocks"
   ],
+  "mineraculous:control_order": [
+    "mineraculous:follow",
+    "mineraculous:follow_and_attack",
+    "mineraculous:stay"
+  ],
   "mineraculous:customization_setting_type": [
     "mineraculous:particle",
     "mineraculous:positive_number",
     "mineraculous:resource_location",
     "mineraculous:sound",
     "mineraculous:string"
+  ],
+  "mineraculous:inventory_slot_type": [
+    "mineraculous:abstract_arrow",
+    "mineraculous:abstract_horse",
+    "mineraculous:container",
+    "mineraculous:curio",
+    "mineraculous:direct",
+    "mineraculous:ender_chest",
+    "mineraculous:equipment",
+    "mineraculous:inventory_carrier",
+    "mineraculous:item_entity",
+    "mineraculous:item_frame",
+    "mineraculous:item_handler",
+    "mineraculous:lucky_charm_item_spawner",
+    "mineraculous:nested",
+    "mineraculous:ominous_item_spawner",
+    "mineraculous:player"
   ],
   "mineraculous:kamikotization": [
     "mineraculous:cat",
@@ -412,7 +471,7 @@
   "mineraculous:kamikotization_condition": [
     "mineraculous:giver",
     "mineraculous:item",
-    "mineraculous:minimum_power_level",
+    "mineraculous:minimum_giver_power_level",
     "mineraculous:receiver"
   ],
   "mineraculous:look_context": [
@@ -438,6 +497,7 @@
     "mineraculous:entity"
   ],
   "neoforge:attachment_types": [
+    "mineraculous:entity_control",
     "mineraculous:inventory_trackers",
     "mineraculous:kamikotizations",
     "mineraculous:leashing_ladybug_yoyo",
@@ -458,16 +518,16 @@
     "mineraculous:add_rare_almond_trees"
   ],
   "neoforge:entity_data_serializers": [
+    "mineraculous:control_order",
     "mineraculous:kamiko_owner_properties",
     "mineraculous:kamiko_replica_data",
     "mineraculous:kwami_summoning_appearance",
-    "mineraculous:minion_kamikotization_data",
     "mineraculous:miraculous",
     "mineraculous:miraculous_ladybug_target_data",
-    "mineraculous:optional_ladybug_yoyo_mode",
-    "mineraculous:uuid"
+    "mineraculous:optional_ladybug_yoyo_mode"
   ],
   "neoforge:synced_attachment_types": [
+    "mineraculous:entity_control",
     "mineraculous:kamikotizations",
     "mineraculous:leashing_ladybug_yoyo",
     "mineraculous:miraculous_ladybug_trigger",

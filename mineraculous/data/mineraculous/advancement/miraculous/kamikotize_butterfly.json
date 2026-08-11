@@ -3,7 +3,7 @@
   "criteria": {
     "kamikotize_butterfly": {
       "conditions": {
-        "id": "kamikotization",
+        "key": "mineraculous:kamikotization",
         "source": {
           "key": {
             "element": "mineraculous:butterfly",
