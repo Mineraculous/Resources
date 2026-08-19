@@ -8,6 +8,7 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "minecraft.data.recipes.SimpleCookingRecipeBuilderMixin",
+    "minecraft.server.level.ChunkMapTrackedEntityMixin",
     "minecraft.server.level.ServerLevelMixin",
     "minecraft.server.level.ServerPlayer$1Mixin",
     "minecraft.server.level.ServerPlayer$2Mixin",
@@ -45,7 +46,8 @@
     "minecraft.client.gui.screens.packs.PackSelectionModelEntryBaseMixin",
     "minecraft.client.gui.screens.packs.PackSelectionModelEntryMixin",
     "minecraft.client.gui.screens.packs.TransferableSelectionListPackEntryMixin",
-    "minecraft.client.multiplayer.ClientLevelMixin",
+    "minecraft.client.model.HumanoidModelMixin",
+    "minecraft.client.model.geom.ModelPartMixin",
     "minecraft.client.multiplayer.ClientPacketListenerMixin",
     "minecraft.client.player.LocalPlayerMixin",
     "minecraft.client.renderer.GameRendererMixin",
@@ -57,6 +59,7 @@
     "minecraft.client.renderer.entity.LivingEntityRendererMixin",
     "minecraft.client.renderer.entity.ThrownTridentRendererMixin",
     "minecraft.client.renderer.entity.layers.CapeLayerMixin",
+    "minecraft.client.renderer.entity.player.PlayerRendererMixin",
     "minecraft.client.renderer.entity.layers.ElytraLayerMixin",
     "minecraft.client.renderer.entity.layers.HumanoidArmorLayerMixin",
     "tommylib.api.client.renderer.entity.ThrownSwordRendererMixin"

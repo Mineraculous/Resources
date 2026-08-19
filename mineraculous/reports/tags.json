@@ -1,7 +1,7 @@
 [
-  "minecraft:damage_type",
-  "minecraft:item",
+  "mineraculous:miraculous",
   "minecraft:entity_type",
   "minecraft:block",
-  "mineraculous:miraculous"
+  "minecraft:item",
+  "minecraft:damage_type"
 ]

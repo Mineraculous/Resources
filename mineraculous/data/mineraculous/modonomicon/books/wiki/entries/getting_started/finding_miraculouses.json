@@ -16,8 +16,8 @@
         "type": "modonomicon:none"
       },
       "show_title_separator": true,
-      "text": "book.mineraculous.wiki.getting_started.finding_miraculouses.end_cities.text",
-      "title": "book.mineraculous.wiki.getting_started.finding_miraculouses.end_cities.title",
+      "text": "book.mineraculous.wiki.getting_started.finding_miraculouses.ominous_vaults.text",
+      "title": "book.mineraculous.wiki.getting_started.finding_miraculouses.ominous_vaults.title",
       "use_markdown_in_title": false
     },
     {

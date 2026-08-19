@@ -11,7 +11,7 @@
   "pages": [
     {
       "type": "modonomicon:spotlight",
-      "anchor": "",
+      "anchor": "great_sword",
       "condition": {
         "type": "modonomicon:none"
       },
@@ -24,7 +24,7 @@
     },
     {
       "type": "modonomicon:spotlight",
-      "anchor": "",
+      "anchor": "cataclysm_dust",
       "condition": {
         "type": "modonomicon:none"
       },
