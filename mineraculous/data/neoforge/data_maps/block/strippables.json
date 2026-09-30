@@ -1,0 +1,10 @@
+{
+  "values": {
+    "mineraculous:almond_log": {
+      "stripped_block": "mineraculous:stripped_almond_log"
+    },
+    "mineraculous:almond_wood": {
+      "stripped_block": "mineraculous:stripped_almond_wood"
+    }
+  }
+}

@@ -10,7 +10,7 @@
       ]
     }
   ],
-  "customization_settings": {
+  "customization_setting_definitions": {
     "shader": {
       "type": "mineraculous:resource_location",
       "default_value": "mineraculous:shaders/post/cat_vision.json"

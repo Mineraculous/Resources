@@ -29,10 +29,10 @@
       }
     }
   ],
-  "customization_settings": {
+  "customization_setting_definitions": {
     "face_mask_texture": {
       "type": "mineraculous:resource_location",
-      "default_value": "mineraculous:textures/entity/player/face_mask/kamiko.png"
+      "default_value": "mineraculous:textures/entity/player/face_mask/butterfly/default.png"
     },
     "shader": {
       "type": "mineraculous:resource_location",

@@ -1,0 +1,17 @@
+{
+  "net/minecraft/world/entity/Entity": [
+    "dev/thomasglasser/mineraculous/api/world/inventory/InventorySlotHolder"
+  ],
+  "net/minecraft/world/level/block/entity/BlockEntity": [
+    "dev/thomasglasser/mineraculous/api/world/inventory/InventorySlotHolder"
+  ],
+  "net/minecraft/client/gui/screens/packs/PackSelectionModel$Entry": [
+    "dev/thomasglasser/mineraculous/impl/server/packs/repository/MineraculousPackCompatibilityHolder"
+  ],
+  "net/minecraft/server/packs/repository/Pack$Metadata": [
+    "dev/thomasglasser/mineraculous/impl/server/packs/repository/MineraculousPackCompatibilityHolder"
+  ],
+  "net/minecraft/client/gui/screens/packs/PackSelectionModel$EntryBase": [
+    "dev/thomasglasser/mineraculous/impl/server/packs/repository/MineraculousPackCompatibilityHolder"
+  ]
+}

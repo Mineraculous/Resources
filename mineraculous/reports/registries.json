@@ -118,7 +118,7 @@
     "mineraculous:power_state",
     "mineraculous:powered",
     "mineraculous:remaining_ticks",
-    "mineraculous:revertible_item_id",
+    "mineraculous:reversion",
     "mineraculous:tool_id",
     "mineraculous:transformation_state"
   ],
@@ -285,10 +285,7 @@
   "minecraft:painting_variant": [
     "mineraculous:butterfly",
     "mineraculous:cat",
-    "mineraculous:ladybug",
-    "mineraculous:mini_butterfly",
-    "mineraculous:mini_cat",
-    "mineraculous:mini_ladybug"
+    "mineraculous:ladybug"
   ],
   "minecraft:particle_type": [
     "mineraculous:black_orb",
@@ -346,6 +343,7 @@
   ],
   "minecraft:trigger_type": [
     "mineraculous:kamikotized_entity",
+    "mineraculous:killed_with_override",
     "mineraculous:performed_ability",
     "mineraculous:released_purified_entities",
     "mineraculous:transformed_kamikotization",
@@ -459,7 +457,8 @@
     "mineraculous:item_frame",
     "mineraculous:item_handler",
     "mineraculous:lucky_charm_item_spawner",
-    "mineraculous:nested",
+    "mineraculous:nested_bundle",
+    "mineraculous:nested_container",
     "mineraculous:ominous_item_spawner",
     "mineraculous:player"
   ],
@@ -483,6 +482,7 @@
     "mineraculous:powered_miraculous"
   ],
   "mineraculous:look_metadata_type": [
+    "mineraculous:name",
     "mineraculous:valid_kamikotizations",
     "mineraculous:valid_miraculouses"
   ],
@@ -491,10 +491,16 @@
     "mineraculous:cat",
     "mineraculous:ladybug"
   ],
-  "mineraculous:miraculous_ladybug_target_type": [
-    "mineraculous:block",
-    "mineraculous:cluster",
-    "mineraculous:entity"
+  "mineraculous:reversion_entry_type": [
+    "mineraculous:cleanse_entity",
+    "mineraculous:discard_entity",
+    "mineraculous:remove_kill_credit_override",
+    "mineraculous:restore_block",
+    "mineraculous:restore_broken_item",
+    "mineraculous:revert_conversion",
+    "mineraculous:revert_items",
+    "mineraculous:revive_entity",
+    "mineraculous:revive_player"
   ],
   "neoforge:attachment_types": [
     "mineraculous:entity_control",
@@ -523,8 +529,8 @@
     "mineraculous:kamiko_replica_data",
     "mineraculous:kwami_summoning_appearance",
     "mineraculous:miraculous",
-    "mineraculous:miraculous_ladybug_target_data",
-    "mineraculous:optional_ladybug_yoyo_mode"
+    "mineraculous:optional_ladybug_yoyo_mode",
+    "mineraculous:vec3_list"
   ],
   "neoforge:synced_attachment_types": [
     "mineraculous:entity_control",

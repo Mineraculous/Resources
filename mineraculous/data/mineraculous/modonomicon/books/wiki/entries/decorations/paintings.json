@@ -18,11 +18,8 @@
       },
       "images": [
         "mineraculous:textures/painting/ladybug.png",
-        "mineraculous:textures/painting/mini_ladybug.png",
         "mineraculous:textures/painting/cat.png",
-        "mineraculous:textures/painting/mini_cat.png",
-        "mineraculous:textures/painting/butterfly.png",
-        "mineraculous:textures/painting/mini_butterfly.png"
+        "mineraculous:textures/painting/butterfly.png"
       ],
       "text": "book.mineraculous.wiki.decorations.paintings.placeable.text",
       "title": "book.mineraculous.wiki.decorations.paintings.placeable.title",

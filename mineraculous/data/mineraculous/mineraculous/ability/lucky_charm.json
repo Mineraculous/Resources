@@ -21,7 +21,7 @@
       }
     }
   ],
-  "customization_settings": {
+  "customization_setting_definitions": {
     "start_sound": {
       "type": "mineraculous:sound",
       "default_value": "mineraculous:lucky_charm_activate",

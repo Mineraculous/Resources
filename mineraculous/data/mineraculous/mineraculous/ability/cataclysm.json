@@ -37,7 +37,9 @@
             "id": "mineraculous:cataclysm_dust"
           },
           "effects": "mineraculous:cataclysm",
-          "override_kill_credit": true
+          "override_kill_credit": true,
+          "restore_health_on_reversion": true,
+          "set_last_hurt": true
         }
       ],
       "conditions": [
@@ -94,7 +96,7 @@
       ]
     }
   ],
-  "customization_settings": {
+  "customization_setting_definitions": {
     "apply_sound": {
       "type": "mineraculous:sound",
       "default_value": "mineraculous:cataclysm_use",
@@ -111,5 +113,6 @@
       "default_value": "mineraculous:cataclysm_activate",
       "optional": true
     }
-  }
+  },
+  "start_sound": "start_sound"
 }

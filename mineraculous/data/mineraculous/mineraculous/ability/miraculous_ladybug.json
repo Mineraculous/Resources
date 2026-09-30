@@ -20,7 +20,7 @@
       ]
     }
   ],
-  "customization_settings": {
+  "customization_setting_definitions": {
     "revert_sound": {
       "type": "mineraculous:sound",
       "default_value": "mineraculous:miraculous_ladybug_activate",

@@ -74,6 +74,9 @@
     }
   },
   "metadata": {
+    "mineraculous:name": {
+      "translate": "look.mineraculous.default"
+    },
     "mineraculous:valid_miraculouses": [
       "mineraculous:cat"
     ]

@@ -50,7 +50,7 @@
       }
     }
   ],
-  "customization_settings": {
+  "customization_setting_definitions": {
     "apply_sound": {
       "type": "mineraculous:sound",
       "default_value": "mineraculous:kamikotization_activate",

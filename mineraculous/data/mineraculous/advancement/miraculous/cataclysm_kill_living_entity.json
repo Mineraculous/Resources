@@ -3,16 +3,19 @@
   "criteria": {
     "cataclysm_kill_living_entity": {
       "conditions": {
-        "killing_blow": {
-          "tags": [
-            {
-              "expected": true,
-              "id": "mineraculous:is_cataclysm"
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "mineraculous:cataclysm": {}
+              }
             }
-          ]
-        }
+          }
+        ]
       },
-      "trigger": "minecraft:player_killed_entity"
+      "trigger": "mineraculous:killed_with_override"
     }
   },
   "display": {

@@ -8,5 +8,7 @@
   "mineraculous:rinses",
   "c:stripped_logs",
   "c:stripped_woods",
+  "c:unbreakable",
+  "mineraculous:unsafe_for_reversion_relocation",
   "c:villager_job_sites"
 ]

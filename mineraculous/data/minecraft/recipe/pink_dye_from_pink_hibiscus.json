@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "orange_dye",
+  "group": "pink_dye",
   "ingredients": [
     {
       "item": "mineraculous:pink_hibiscus"

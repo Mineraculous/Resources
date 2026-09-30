@@ -29,6 +29,7 @@
     "minecraft.world.item.SpawnEggItemMixin",
     "minecraft.world.item.context.BlockPlaceContextMixin",
     "minecraft.world.level.block.FenceBlockMixin",
+    "minecraft.world.level.block.entity.BlockEntityMixin",
     "minecraft.world.level.storage.loot.entries.TagEntryMixin",
     "neoforge.common.extensions.IItemExtensionMixin"
   ],
@@ -61,8 +62,7 @@
     "minecraft.client.renderer.entity.layers.CapeLayerMixin",
     "minecraft.client.renderer.entity.player.PlayerRendererMixin",
     "minecraft.client.renderer.entity.layers.ElytraLayerMixin",
-    "minecraft.client.renderer.entity.layers.HumanoidArmorLayerMixin",
-    "tommylib.api.client.renderer.entity.ThrownSwordRendererMixin"
+    "minecraft.client.renderer.entity.layers.HumanoidArmorLayerMixin"
   ],
   "server": [
   ],

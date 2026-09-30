@@ -4,7 +4,7 @@
   ],
   "power_source": {
     "ability": "mineraculous:cataclysm",
-    "customization_settings": {
+    "customization_setting_definitions": {
       "weird_start": {
         "type": "mineraculous:sound",
         "default_value": "minecraft:item.armor.equip_turtle"

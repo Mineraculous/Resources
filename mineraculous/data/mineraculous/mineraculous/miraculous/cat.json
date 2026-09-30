@@ -2,8 +2,7 @@
   "acceptable_slot": "ring",
   "active_ability": {
     "ability": "mineraculous:cataclysm",
-    "continuous_ticks": 20,
-    "start_sound": "start_sound"
+    "continuous_ticks": 20
   },
   "color": "#C6F800",
   "customization_settings": {
