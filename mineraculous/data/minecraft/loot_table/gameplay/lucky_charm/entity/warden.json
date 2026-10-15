@@ -92,5 +92,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "mineraculous:gameplay/lucky_charm/entity/warden"
+  "random_sequence": "minecraft:gameplay/lucky_charm/entity/warden"
 }

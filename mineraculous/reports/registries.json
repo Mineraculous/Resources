@@ -116,7 +116,7 @@
     "mineraculous:miraculous_id",
     "mineraculous:owner",
     "mineraculous:power_state",
-    "mineraculous:powered",
+    "mineraculous:power_switch",
     "mineraculous:remaining_ticks",
     "mineraculous:reversion",
     "mineraculous:tool_id",
@@ -288,11 +288,12 @@
     "mineraculous:ladybug"
   ],
   "minecraft:particle_type": [
-    "mineraculous:black_orb",
     "mineraculous:falling_oil",
     "mineraculous:kamikotization",
     "mineraculous:landing_oil",
+    "mineraculous:orb",
     "mineraculous:reverting_ladybug",
+    "mineraculous:small_heart",
     "mineraculous:sparkle",
     "mineraculous:summoning_ladybug"
   ],
@@ -474,7 +475,7 @@
     "mineraculous:receiver"
   ],
   "mineraculous:look_context": [
-    "mineraculous:hidden_miraculous",
+    "mineraculous:camouflaged_miraculous",
     "mineraculous:kamikotization_suit",
     "mineraculous:kamikotization_tool",
     "mineraculous:miraculous_suit",

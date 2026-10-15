@@ -71,5 +71,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "mineraculous:gameplay/lucky_charm/entity/ender_dragon"
+  "random_sequence": "minecraft:gameplay/lucky_charm/entity/ender_dragon"
 }

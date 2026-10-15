@@ -105,7 +105,10 @@
     "particle": {
       "type": "mineraculous:particle",
       "default_value": {
-        "type": "mineraculous:black_orb"
+        "type": "mineraculous:orb",
+        "color": 65793,
+        "lifetime": 3,
+        "scale": 0.05
       }
     },
     "start_sound": {

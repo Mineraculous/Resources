@@ -1,10 +1,14 @@
 {
   "acceptable_slot": "earrings",
   "active_ability": "mineraculous:lucky_charm",
-  "color": "#DD1731",
   "customization_settings": {
     "mineraculous:transform_sound": "mineraculous:ladybug_transform",
     "mineraculous:transformation_frames": 9
+  },
+  "palette": {
+    "primary": "#DD1731",
+    "secondary": "#D30721",
+    "tertiary": "#FF3B87"
   },
   "passive_abilities": [
     "mineraculous:miraculous_ladybug",

@@ -1,9 +1,9 @@
 {
   "net/minecraft/world/entity/Entity": [
-    "dev/thomasglasser/mineraculous/api/world/inventory/InventorySlotHolder"
+    "dev/thomasglasser/mineraculous/api/world/inventory/slot/InventorySlotHolder"
   ],
   "net/minecraft/world/level/block/entity/BlockEntity": [
-    "dev/thomasglasser/mineraculous/api/world/inventory/InventorySlotHolder"
+    "dev/thomasglasser/mineraculous/api/world/inventory/slot/InventorySlotHolder"
   ],
   "net/minecraft/client/gui/screens/packs/PackSelectionModel$Entry": [
     "dev/thomasglasser/mineraculous/impl/server/packs/repository/MineraculousPackCompatibilityHolder"

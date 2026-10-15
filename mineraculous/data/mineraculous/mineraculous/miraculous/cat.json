@@ -4,10 +4,14 @@
     "ability": "mineraculous:cataclysm",
     "continuous_ticks": 20
   },
-  "color": "#C6F800",
   "customization_settings": {
     "mineraculous:transform_sound": "mineraculous:cat_transform",
     "mineraculous:transformation_frames": 9
+  },
+  "palette": {
+    "primary": "#C6F800",
+    "secondary": "#010101",
+    "tertiary": "#30EB00"
   },
   "passive_abilities": [
     "mineraculous:cat_vision",

@@ -1,7 +1,6 @@
 {
   "acceptable_slot": "brooch",
   "active_ability": "mineraculous:kamikotization",
-  "color": "#641D9A",
   "customization_setting_definitions": {
     "face_mask_texture": {
       "type": "mineraculous:resource_location",
@@ -15,6 +14,11 @@
   "customization_settings": {
     "mineraculous:transform_sound": "mineraculous:butterfly_transform",
     "mineraculous:transformation_frames": 7
+  },
+  "palette": {
+    "primary": "#641D9A",
+    "secondary": "#20162C",
+    "tertiary": "#9D08F9"
   },
   "passive_abilities": [
     "mineraculous:kamiko_control",
