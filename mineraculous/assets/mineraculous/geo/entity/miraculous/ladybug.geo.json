@@ -13,7 +13,7 @@
 			"bones": [
 				{
 					"name": "base",
-					"pivot": [0, 2.13617, 0.17433]
+					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "upper_body",

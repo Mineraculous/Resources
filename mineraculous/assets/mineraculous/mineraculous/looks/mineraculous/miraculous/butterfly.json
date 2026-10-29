@@ -10,11 +10,7 @@
     },
     "mineraculous:miraculous_suit": {
       "mineraculous:geckolib_model": "mineraculous:geo/item/armor/miraculous/butterfly.geo.json",
-      "mineraculous:texture": "mineraculous:textures/entity/equipment/humanoid/miraculous/butterfly.png",
-      "mineraculous:transformation_textures": {
-        "base": "mineraculous:textures/entity/equipment/humanoid/miraculous/butterfly.png",
-        "texture_count": 7
-      }
+      "mineraculous:texture": "mineraculous:textures/entity/equipment/humanoid/miraculous/butterfly.png"
     },
     "mineraculous:miraculous_tool": {
       "assets": {

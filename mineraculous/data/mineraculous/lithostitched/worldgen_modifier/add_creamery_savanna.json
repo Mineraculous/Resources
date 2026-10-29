@@ -13,5 +13,8 @@
       "weight": 9
     }
   ],
-  "template_pools": "minecraft:village/savanna/houses"
+  "template_pools": {
+    "type": "lithostitched:holder_set",
+    "set": "minecraft:village/savanna/houses"
+  }
 }

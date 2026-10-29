@@ -2,8 +2,7 @@
   "acceptable_slot": "earrings",
   "active_ability": "mineraculous:lucky_charm",
   "customization_settings": {
-    "mineraculous:transform_sound": "mineraculous:ladybug_transform",
-    "mineraculous:transformation_frames": 9
+    "mineraculous:transform_sound": "mineraculous:ladybug_transform"
   },
   "palette": {
     "primary": "#DD1731",

@@ -1,0 +1,14 @@
+// 1.21.1	2026-10-29T00:49:31.780821724	Tags for minecraft:damage_type mod id mineraculous
+679a543e34f3968e07f11a6b235531abdd4a6146 data/c/tags/damage_type/is_mental.json
+161b77b05d8886f188f5020848cd43ae3a371e2c data/minecraft/tags/damage_type/always_hurts_ender_dragons.json
+161b77b05d8886f188f5020848cd43ae3a371e2c data/minecraft/tags/damage_type/always_kills_armor_stands.json
+161b77b05d8886f188f5020848cd43ae3a371e2c data/minecraft/tags/damage_type/bypasses_armor.json
+679a543e34f3968e07f11a6b235531abdd4a6146 data/minecraft/tags/damage_type/bypasses_effects.json
+161b77b05d8886f188f5020848cd43ae3a371e2c data/minecraft/tags/damage_type/bypasses_enchantments.json
+679a543e34f3968e07f11a6b235531abdd4a6146 data/minecraft/tags/damage_type/bypasses_resistance.json
+161b77b05d8886f188f5020848cd43ae3a371e2c data/minecraft/tags/damage_type/bypasses_wolf_armor.json
+161b77b05d8886f188f5020848cd43ae3a371e2c data/minecraft/tags/damage_type/no_knockback.json
+161b77b05d8886f188f5020848cd43ae3a371e2c data/minecraft/tags/damage_type/panic_causes.json
+161b77b05d8886f188f5020848cd43ae3a371e2c data/mineraculous/tags/damage_type/hurts_kamikos.json
+161b77b05d8886f188f5020848cd43ae3a371e2c data/neoforge/tags/damage_type/is_magic.json
+45bab97119450710daa07af3b739b2b31390a13a reports/tags/minecraft/damage_type.json

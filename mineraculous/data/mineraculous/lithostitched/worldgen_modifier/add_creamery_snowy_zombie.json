@@ -11,5 +11,8 @@
       "weight": 9
     }
   ],
-  "template_pools": "minecraft:village/snowy/zombie/houses"
+  "template_pools": {
+    "type": "lithostitched:holder_set",
+    "set": "minecraft:village/snowy/zombie/houses"
+  }
 }

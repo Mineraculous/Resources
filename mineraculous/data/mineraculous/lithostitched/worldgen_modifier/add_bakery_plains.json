@@ -11,5 +11,8 @@
       "weight": 4
     }
   ],
-  "template_pools": "minecraft:village/plains/houses"
+  "template_pools": {
+    "type": "lithostitched:holder_set",
+    "set": "minecraft:village/plains/houses"
+  }
 }

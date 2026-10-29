@@ -1,0 +1,41 @@
+{
+  "type": "mineraculous:modify_items",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "effects": {
+          "mineraculous:cataclysm": {}
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "#mineraculous:cataclysm_immune"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:damage_source_properties",
+      "predicate": {}
+    }
+  ],
+  "function": {
+    "function": "minecraft:filtered",
+    "item_filter": {
+      "items": {
+        "type": "neoforge:not",
+        "value": "#mineraculous:cataclysm_immune"
+      }
+    },
+    "modifier": {
+      "function": "minecraft:set_item",
+      "item": "mineraculous:cataclysm_dust"
+    }
+  }
+}

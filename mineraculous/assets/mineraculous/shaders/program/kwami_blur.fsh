@@ -2,6 +2,8 @@
 
 uniform sampler2D DiffuseSampler;
 uniform float BlurSigma;
+uniform float ColorGain;
+uniform float AlphaGain;
 
 in vec2 texCoord;
 in vec2 sampleStep;
@@ -32,8 +34,6 @@ void main() {
     }
 
     vec4 blurredColor = color / weightSum;
-    float coreMask = smoothstep(0.6, 0.95, blurredColor.a);
-    vec3 vibrantColor = blurredColor.rgb * 2.5;
-    vec3 finalRGB = mix(vibrantColor, vec3(1.5), coreMask);
-    fragColor = vec4(finalRGB, blurredColor.a * 1.8);
+
+    fragColor = vec4(blurredColor.rgb * ColorGain, blurredColor.a * AlphaGain);
 }

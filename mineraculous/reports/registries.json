@@ -108,7 +108,7 @@
     "mineraculous:kamikotization",
     "mineraculous:kamikotized",
     "mineraculous:kamikotizing",
-    "mineraculous:kwami_foods",
+    "mineraculous:kwami_data",
     "mineraculous:kwami_id",
     "mineraculous:ladybug_yoyo_mode",
     "mineraculous:lucky_charm",
@@ -269,10 +269,15 @@
   "minecraft:memory_module_type": [
     "mineraculous:breaching_target_pos",
     "mineraculous:control_order",
+    "mineraculous:detour",
+    "mineraculous:detour_ticks",
+    "mineraculous:formation",
     "mineraculous:has_replicated",
     "mineraculous:replicas_made",
     "mineraculous:replication_status",
-    "mineraculous:replication_wait_ticks"
+    "mineraculous:replication_wait_ticks",
+    "mineraculous:wander_rest_ticks",
+    "mineraculous:wander_target"
   ],
   "minecraft:menu": [
     "mineraculous:oven"
@@ -315,6 +320,7 @@
   ],
   "minecraft:sensor_type": [
     "mineraculous:attackable_target",
+    "mineraculous:formation",
     "mineraculous:player_item_tempting"
   ],
   "minecraft:sound_event": [
@@ -335,6 +341,7 @@
     "mineraculous:kamikotization_transform",
     "mineraculous:kamikotized_communication_activate",
     "mineraculous:kwami_hurt",
+    "mineraculous:kwami_phase",
     "mineraculous:kwami_summon",
     "mineraculous:ladybug_transform",
     "mineraculous:ladybug_yoyo_spin",
@@ -439,11 +446,13 @@
     "mineraculous:stay"
   ],
   "mineraculous:customization_setting_type": [
+    "mineraculous:detransformation_animation",
     "mineraculous:particle",
     "mineraculous:positive_number",
     "mineraculous:resource_location",
     "mineraculous:sound",
-    "mineraculous:string"
+    "mineraculous:string",
+    "mineraculous:transformation_animation"
   ],
   "mineraculous:inventory_slot_type": [
     "mineraculous:abstract_arrow",
@@ -503,6 +512,23 @@
     "mineraculous:revive_entity",
     "mineraculous:revive_player"
   ],
+  "mineraculous:transformation_edge_appearance": [
+    "mineraculous:glowing"
+  ],
+  "mineraculous:transformation_edge_shape": [
+    "mineraculous:spikes",
+    "mineraculous:straight",
+    "mineraculous:waves"
+  ],
+  "mineraculous:transformation_origin": [
+    "mineraculous:body",
+    "mineraculous:source"
+  ],
+  "mineraculous:transformation_spread": [
+    "mineraculous:limb_radial",
+    "mineraculous:linear",
+    "mineraculous:radial"
+  ],
   "neoforge:attachment_types": [
     "mineraculous:entity_control",
     "mineraculous:inventory_trackers",
@@ -518,6 +544,7 @@
     "mineraculous:thrown_ladybug_yoyo",
     "mineraculous:traveling_cat_staff",
     "mineraculous:tying_rope",
+    "mineraculous:wind_charge_item",
     "mineraculous:yoyo_leash_override"
   ],
   "neoforge:biome_modifier": [
@@ -533,6 +560,9 @@
     "mineraculous:optional_ladybug_yoyo_mode",
     "mineraculous:vec3_list"
   ],
+  "neoforge:global_loot_modifier_serializers": [
+    "mineraculous:modify_items"
+  ],
   "neoforge:synced_attachment_types": [
     "mineraculous:entity_control",
     "mineraculous:kamikotizations",
@@ -542,10 +572,12 @@
     "mineraculous:perching_cat_staff",
     "mineraculous:performer_ability",
     "mineraculous:rope_override",
+    "mineraculous:stored_armor",
     "mineraculous:target_ability",
     "mineraculous:thrown_ladybug_yoyo",
     "mineraculous:traveling_cat_staff",
     "mineraculous:tying_rope",
+    "mineraculous:wind_charge_item",
     "mineraculous:yoyo_leash_override"
   ]
 }

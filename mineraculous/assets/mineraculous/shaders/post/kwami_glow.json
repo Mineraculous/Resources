@@ -1,7 +1,8 @@
 {
   "targets": [
     "swap",
-    "kwami"
+    "kwami",
+    "blurred"
   ],
   "passes": [
     {
@@ -43,14 +44,27 @@
     {
       "name": "mineraculous:kwami_blur",
       "intarget": "swap",
-      "outtarget": "kwami",
+      "outtarget": "blurred",
       "use_linear_filter": true,
       "uniforms": [
         {
           "name": "BlurDir",
           "values": [ 0.4, -0.4 ]
+        },
+        {
+          "name": "ColorGain",
+          "values": [ 1.0 ]
+        },
+        {
+          "name": "AlphaGain",
+          "values": [ 1.0 ]
         }
       ]
+    },
+    {
+      "name": "mineraculous:kwami_glow_composite",
+      "intarget": "blurred",
+      "outtarget": "kwami"
     }
   ]
 }

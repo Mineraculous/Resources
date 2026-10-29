@@ -1,0 +1,10 @@
+// 1.21.1	2026-10-29T00:49:31.78293619	Data Maps
+45fb720e84960d44b48648aa965dcf266a89fc53 data/mineraculous/data_maps/attribute/miraculous_attribute_modifiers.json
+d446ffe052696e1ccce5790ede5c8d9c07cb3124 data/mineraculous/data_maps/block/ageables.json
+0786549f65e5d247bf7f2c8d2066fecc50b94c51 data/mineraculous/data_maps/entity_type/lucky_charms.json
+a98d928522b30d6ae1570b80d32aa003545c09d3 data/mineraculous/data_maps/mineraculous/miraculous/lucky_charms.json
+e4217552324cd1dc1a19999643e70836970aeca6 data/mineraculous/data_maps/mob_effect/miraculous_effects.json
+de67488dd25b13cb1d97bf622f80dcad69a39f76 data/neoforge/data_maps/block/strippables.json
+fe6c03d2b676976c1fa286bdd94a6aafce93d2da data/neoforge/data_maps/block/waxables.json
+de8ce600eaddc94aeda23fdaa52bf81d1b5d0a46 data/neoforge/data_maps/item/compostables.json
+67b58a9e93632964cc8a5d7086fb4822ffb053d7 data/neoforge/data_maps/villager_profession/raid_hero_gifts.json

@@ -10,11 +10,7 @@
     },
     "mineraculous:miraculous_suit": {
       "mineraculous:geckolib_model": "mineraculous:geo/item/armor/miraculous/cat.geo.json",
-      "mineraculous:texture": "mineraculous:textures/entity/equipment/humanoid/miraculous/cat.png",
-      "mineraculous:transformation_textures": {
-        "base": "mineraculous:textures/entity/equipment/humanoid/miraculous/cat.png",
-        "texture_count": 9
-      }
+      "mineraculous:texture": "mineraculous:textures/entity/equipment/humanoid/miraculous/cat.png"
     },
     "mineraculous:miraculous_tool": {
       "assets": {

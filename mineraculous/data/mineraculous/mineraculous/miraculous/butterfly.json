@@ -12,8 +12,7 @@
     }
   },
   "customization_settings": {
-    "mineraculous:transform_sound": "mineraculous:butterfly_transform",
-    "mineraculous:transformation_frames": 7
+    "mineraculous:transform_sound": "mineraculous:butterfly_transform"
   },
   "palette": {
     "primary": "#641D9A",

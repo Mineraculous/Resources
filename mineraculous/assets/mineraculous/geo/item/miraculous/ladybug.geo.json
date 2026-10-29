@@ -16,7 +16,7 @@
 					"pivot": [3, 4, -1]
 				},
 				{
-					"name": "left_earring",
+					"name": "right_earring",
 					"parent": "base",
 					"pivot": [0, 0, 0],
 					"cubes": [
@@ -30,7 +30,7 @@
 					]
 				},
 				{
-					"name": "right_earring",
+					"name": "left_earring",
 					"parent": "base",
 					"pivot": [0, 0, 0],
 					"cubes": [

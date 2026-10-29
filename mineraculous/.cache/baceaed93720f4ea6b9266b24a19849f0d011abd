@@ -1,0 +1,7 @@
+// 1.21.1	2026-10-29T00:49:31.782849249	Tags for minecraft:worldgen/biome mod id mineraculous
+40b9d98eecbb45f38e1707b2aae614898e2461d2 data/mineraculous/tags/worldgen/biome/has_cold_variant_hibiscus.json
+31057a3667315c474cf326986dca1c87e71d2365 data/mineraculous/tags/worldgen/biome/has_common_almond_trees.json
+123a8c4cf362352d397dc85738c4e8bb2ef2dc40 data/mineraculous/tags/worldgen/biome/has_rare_almond_trees.json
+32df1072bc4de80e3021958ddf5dc3dfd8ad17b8 data/mineraculous/tags/worldgen/biome/has_temperate_variant_hibiscus.json
+01737c38192cabd444faf780f2c878d7bad1d5b0 data/mineraculous/tags/worldgen/biome/has_warm_variant_hibiscus.json
+689a6511c0b8b4112653010a7269236d3304d055 reports/tags/minecraft/worldgen/biome.json

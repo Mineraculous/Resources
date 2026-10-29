@@ -13,5 +13,8 @@
       "weight": 8
     }
   ],
-  "template_pools": "minecraft:village/desert/houses"
+  "template_pools": {
+    "type": "lithostitched:holder_set",
+    "set": "minecraft:village/desert/houses"
+  }
 }

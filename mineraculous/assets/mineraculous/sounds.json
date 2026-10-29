@@ -42,6 +42,12 @@
     ],
     "subtitle": "subtitles.entity.kwami.hurt"
   },
+  "entity.kwami.phase": {
+    "sounds": [
+      "mineraculous:entity/kwami/phase"
+    ],
+    "subtitle": "subtitles.entity.kwami.phase"
+  },
   "entity.kwami.summon": {
     "sounds": [
       "mineraculous:entity/kwami/summon"

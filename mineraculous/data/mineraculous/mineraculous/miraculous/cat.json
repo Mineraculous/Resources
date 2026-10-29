@@ -5,8 +5,7 @@
     "continuous_ticks": 20
   },
   "customization_settings": {
-    "mineraculous:transform_sound": "mineraculous:cat_transform",
-    "mineraculous:transformation_frames": 9
+    "mineraculous:transform_sound": "mineraculous:cat_transform"
   },
   "palette": {
     "primary": "#C6F800",
