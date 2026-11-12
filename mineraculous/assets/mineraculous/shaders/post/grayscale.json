@@ -1,0 +1,13 @@
+{
+    "targets": [
+        "icon",
+        "grayed"
+    ],
+    "passes": [
+        {
+            "name": "mineraculous:grayscale",
+            "intarget": "icon",
+            "outtarget": "grayed"
+        }
+    ]
+}

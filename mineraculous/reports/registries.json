@@ -340,8 +340,8 @@
     "mineraculous:kamikotization_detransform",
     "mineraculous:kamikotization_transform",
     "mineraculous:kamikotized_communication_activate",
-    "mineraculous:kwami_hurt",
     "mineraculous:kwami_phase",
+    "mineraculous:kwami_refuse",
     "mineraculous:kwami_summon",
     "mineraculous:ladybug_transform",
     "mineraculous:ladybug_yoyo_spin",
@@ -483,6 +483,10 @@
     "mineraculous:minimum_giver_power_level",
     "mineraculous:receiver"
   ],
+  "mineraculous:kwami_control": [
+    "mineraculous:may_fly",
+    "mineraculous:wander_range"
+  ],
   "mineraculous:look_context": [
     "mineraculous:camouflaged_miraculous",
     "mineraculous:kamikotization_suit",
@@ -533,6 +537,7 @@
     "mineraculous:entity_control",
     "mineraculous:inventory_trackers",
     "mineraculous:kamikotizations",
+    "mineraculous:kwami_preferences",
     "mineraculous:leashing_ladybug_yoyo",
     "mineraculous:miraculous_ladybug_trigger",
     "mineraculous:miraculouses",

@@ -1,10 +1,10 @@
 [
-  "minecraft:worldgen/biome",
-  "minecraft:entity_type",
-  "minecraft:fluid",
-  "minecraft:block",
-  "minecraft:item",
-  "minecraft:banner_pattern",
   "minecraft:damage_type",
+  "minecraft:block",
+  "minecraft:worldgen/biome",
+  "minecraft:banner_pattern",
+  "minecraft:entity_type",
+  "minecraft:item",
+  "minecraft:fluid",
   "mineraculous:miraculous"
 ]

@@ -4,6 +4,8 @@ uniform sampler2D DiffuseSampler;
 uniform float BlurSigma;
 uniform float ColorGain;
 uniform float AlphaGain;
+// How many pixels the kwami covers per pixel it covers at the reference distance, so the blur scales with the kwami on screen.
+uniform float PixelScale;
 
 in vec2 texCoord;
 in vec2 sampleStep;
@@ -25,7 +27,7 @@ void main() {
     for (int i = 1; i <= RADIUS; i++) {
         float w = gaussian(float(i), BlurSigma);
 
-        vec2 offset = sampleStep * float(i);
+        vec2 offset = sampleStep * float(i) * PixelScale;
 
         color += texture(DiffuseSampler, texCoord + offset) * w;
         color += texture(DiffuseSampler, texCoord - offset) * w;

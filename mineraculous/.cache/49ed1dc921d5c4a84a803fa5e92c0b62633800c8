@@ -1,4 +1,4 @@
-// 1.21.1	2026-10-29T00:49:31.777495223	Books: mineraculous
+// 1.21.1	2026-11-12T01:29:21.882032114	Books: mineraculous
 e5d3c3009f75719a06483fe31cf045ceac5bf73b data/mineraculous/modonomicon/books/wiki/book.json
 13f4f5c11b7a22bce1b97ccb863ca68cfddb2177 data/mineraculous/modonomicon/books/wiki/categories/apis.json
 427b002f1b668c606e0b2d4918fdfaacf8be6c10 data/mineraculous/modonomicon/books/wiki/categories/cosmetics.json
@@ -54,7 +54,7 @@ dbc377de41d245236a0e138e742cf5091055d144 data/mineraculous/modonomicon/books/wik
 5e95853b6262f761bd1c0209d35d77cc41bc7c6c data/mineraculous/modonomicon/books/wiki/entries/miraculouses/cat.json
 f928a1aeaaf80e6b066162462d44826d33061e71 data/mineraculous/modonomicon/books/wiki/entries/miraculouses/command.json
 205cdba61bb9ec436bcb0380df0534dee597198f data/mineraculous/modonomicon/books/wiki/entries/miraculouses/general.json
-5eeb6a50737a93bc036b548b27e26c19f2ea7567 data/mineraculous/modonomicon/books/wiki/entries/miraculouses/kwamis.json
+aa211423f15c2261b662e78a31fa60ffa2714f13 data/mineraculous/modonomicon/books/wiki/entries/miraculouses/kwamis.json
 c084267d3fa7e0d6c095033750479d66c6c26738 data/mineraculous/modonomicon/books/wiki/entries/miraculouses/ladybug.json
 debefbc02400c9c1d975419539421716178f7cdf data/mineraculous/modonomicon/books/wiki/entries/support/contact.json
 0bae3761c601e7180ddf8d4a43b99e12065227e2 data/mineraculous/modonomicon/books/wiki/entries/support/mod_pages.json

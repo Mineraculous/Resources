@@ -85,6 +85,20 @@
         "type": "modonomicon:none"
       },
       "images": [
+        "mineraculous:textures/modonomicon/wiki/miraculouses/kwamis/kwami_control.png"
+      ],
+      "text": "book.mineraculous.wiki.miraculouses.kwamis.kwami_control.text",
+      "title": "book.mineraculous.wiki.miraculouses.kwamis.kwami_control.title",
+      "use_legacy_rendering": false
+    },
+    {
+      "type": "modonomicon:image",
+      "anchor": "",
+      "border": true,
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "images": [
         "mineraculous:textures/modonomicon/wiki/miraculouses/kwamis/transferring_and_renouncing.png"
       ],
       "text": "book.mineraculous.wiki.miraculouses.kwamis.transferring_and_renouncing.text",
