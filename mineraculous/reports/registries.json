@@ -180,6 +180,7 @@
     "mineraculous:fake_kamikotization_chestplate",
     "mineraculous:fake_kamikotization_leggings",
     "mineraculous:fake_kamikotization_mask",
+    "mineraculous:fake_kwami",
     "mineraculous:fake_miraculous",
     "mineraculous:fake_miraculous_boots",
     "mineraculous:fake_miraculous_chestplate",
@@ -273,11 +274,13 @@
     "mineraculous:detour_ticks",
     "mineraculous:formation",
     "mineraculous:has_replicated",
+    "mineraculous:hide_watched_ticks",
     "mineraculous:replicas_made",
     "mineraculous:replication_status",
     "mineraculous:replication_wait_ticks",
     "mineraculous:wander_rest_ticks",
-    "mineraculous:wander_target"
+    "mineraculous:wander_target",
+    "mineraculous:watcher"
   ],
   "minecraft:menu": [
     "mineraculous:oven"
@@ -321,7 +324,8 @@
   "minecraft:sensor_type": [
     "mineraculous:attackable_target",
     "mineraculous:formation",
-    "mineraculous:player_item_tempting"
+    "mineraculous:player_item_tempting",
+    "mineraculous:watcher"
   ],
   "minecraft:sound_event": [
     "mineraculous:butterfly_transform",
@@ -571,6 +575,7 @@
   "neoforge:synced_attachment_types": [
     "mineraculous:entity_control",
     "mineraculous:kamikotizations",
+    "mineraculous:kwami_preferences",
     "mineraculous:leashing_ladybug_yoyo",
     "mineraculous:miraculous_ladybug_trigger",
     "mineraculous:miraculouses",

@@ -1,4 +1,4 @@
-// 1.21.1	2026-11-12T01:29:21.887687882	Item Models: mineraculous
+// 1.21.1	2026-11-18T23:59:07.901839326	Item Models: mineraculous
 cca095b6a27958d6b3007262c70d20a25991e7e0 assets/mineraculous/models/item/aged_camembert_block.json
 7fec058f58d6ba55530f9f5159c4495f6b45c1e8 assets/mineraculous/models/item/aged_camembert_block_slice1.json
 6eaec5427467be1dc3c7526d4ce3151b82c614a3 assets/mineraculous/models/item/aged_camembert_block_slice2.json
@@ -58,6 +58,7 @@ f173cc6b68ee6e062865d3aff450b58502af3f8c assets/mineraculous/models/item/fake_ka
 f173cc6b68ee6e062865d3aff450b58502af3f8c assets/mineraculous/models/item/fake_kamikotization_chestplate.json
 f173cc6b68ee6e062865d3aff450b58502af3f8c assets/mineraculous/models/item/fake_kamikotization_leggings.json
 f173cc6b68ee6e062865d3aff450b58502af3f8c assets/mineraculous/models/item/fake_kamikotization_mask.json
+0b74cb5cef9ac73f6038756d5f95b88e1c850d89 assets/mineraculous/models/item/fake_kwami.json
 2c8c32d785bfc59bf23083eff8838054ee580570 assets/mineraculous/models/item/fake_miraculous.json
 cdeaee4154c17da15b4dc9a04818ac45e6e4149d assets/mineraculous/models/item/fake_miraculous_boots.json
 cdeaee4154c17da15b4dc9a04818ac45e6e4149d assets/mineraculous/models/item/fake_miraculous_chestplate.json
