@@ -3,5 +3,8 @@
   "mineraculous:has_common_almond_trees",
   "mineraculous:has_rare_almond_trees",
   "mineraculous:has_temperate_variant_hibiscus",
-  "mineraculous:has_warm_variant_hibiscus"
+  "mineraculous:has_warm_variant_hibiscus",
+  "mineraculous:spawns_butterflies",
+  "mineraculous:spawns_cold_variant_butterflies",
+  "mineraculous:spawns_warm_variant_butterflies"
 ]

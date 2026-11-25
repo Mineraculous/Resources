@@ -1,4 +1,4 @@
-// 1.21.1	2026-11-18T23:59:07.89781863	Loot Tables
+// 1.21.1	2026-11-25T21:13:29.818220373	Loot Tables
 441f72eb1ae6ff86aae63d14046c3a82b05ac189 data/minecraft/loot_table/gameplay/lucky_charm/entity/elder_guardian.json
 2dc521cc45e28f303fe3347ccce8495adb885241 data/minecraft/loot_table/gameplay/lucky_charm/entity/ender_dragon.json
 011c0bb9590bb9204616ce736f21dcacc33d64ce data/minecraft/loot_table/gameplay/lucky_charm/entity/raiders.json
@@ -24,6 +24,8 @@ a422b0f0bbe3a6fea15e6ebb7d0eea4547ac83a1 data/mineraculous/loot_table/blocks/alm
 e1f60a46a83e1e6f7734efb18cf1206050f3a1fb data/mineraculous/loot_table/blocks/blue_hibiscus_bush.json
 04548d5fdfec5a06fb03a4a8edfca75474374df3 data/mineraculous/loot_table/blocks/cataclysm_block.json
 3d5fb8e5daf6b9cdd0ca05630ab4448049656c54 data/mineraculous/loot_table/blocks/cheese_pot.json
+ba05a0c76ad2d3ef82f75c14ea1a50e9fed01783 data/mineraculous/loot_table/blocks/chrysalis.json
+8ddf378bf7bfda3527b281787e3ed5f0f2681728 data/mineraculous/loot_table/blocks/chrysalis_husk.json
 f3cc34ba1911f2c017ce3289e076360000063fc5 data/mineraculous/loot_table/blocks/exquisite_camembert_block.json
 7324c4bfb57335fad0aec6b60f46f892c3db3429 data/mineraculous/loot_table/blocks/exquisite_cheese_block.json
 c245c81b1d9b058db14ea1ff24535bbcff624b94 data/mineraculous/loot_table/blocks/fresh_camembert_block.json
@@ -54,4 +56,4 @@ d8408679f9e36e775487b6f70775694ba2b27b18 data/mineraculous/loot_table/gameplay/h
 863453af7aff5591cfbbcb94865bea02d14a8714 data/mineraculous/loot_table/gameplay/lucky_charm/generic.json
 3b8311f4ef79b845718426fc29232d4fd198554f data/mineraculous/loot_table/gameplay/lucky_charm/miraculous/cat.json
 c4f8947349b2a3e9501e967753e4ff7940605a46 data/mineraculous/loot_table/gameplay/lucky_charm/miraculous/ladybug.json
-e6bc7bdf5b38a9cafe27be2ca5478265d75c9c35 reports/loot_tables.json
+2c02b8cfc7e5baaf6dfcb3a60030225a432059d6 reports/loot_tables.json

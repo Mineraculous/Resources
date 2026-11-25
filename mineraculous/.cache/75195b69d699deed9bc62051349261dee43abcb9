@@ -1,5 +1,6 @@
-// 1.21.1	2026-11-18T23:59:07.898389605	Tags for minecraft:entity_type mod id mineraculous
+// 1.21.1	2026-11-25T21:13:29.81882061	Tags for minecraft:entity_type mod id mineraculous
+13ce927919bf37ad01b87e1006b1ba31e84296f6 data/c/tags/entity_type/butterflies.json
 31e971f60267f84ffde8b78392df65ef38c78d82 data/minecraft/tags/entity_type/impact_projectiles.json
 7ed8e41dd2704b261bf02b779484fe3002bf7225 data/mineraculous/tags/entity_type/ladybug_yoyo_extended_range.json
 fcd35a5adc0a036e24c0762c65b9a20f561a31f5 data/mineraculous/tags/entity_type/teleports_with_owner.json
-d17deadf89e20321b47dfb3f86cead4d892e7280 reports/tags/minecraft/entity_type.json
+7791dce68137d39512523bcc0f1a36973ca7b3d7 reports/tags/minecraft/entity_type.json

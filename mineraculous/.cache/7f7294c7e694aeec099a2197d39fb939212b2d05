@@ -1,4 +1,4 @@
-// 1.21.1	2026-11-18T23:59:07.900871538	Tags for minecraft:item mod id mineraculous
+// 1.21.1	2026-11-25T21:13:29.82644903	Tags for minecraft:item mod id mineraculous
 7f8703837eb2d43d41bc5cb0555ef16d4ead82a6 data/c/tags/item/foods.json
 04982b4d1b1715548bbcdaa9a8c5fe01900231c9 data/c/tags/item/foods/cheese_blocks.json
 b3d43efa638a7890e06f061b15a3a67d7d01bc4f data/c/tags/item/foods/cheeses.json
@@ -42,9 +42,11 @@ f0bbced75f5bacfd7d4fcbb6c5568e69eb1920c7 data/minecraft/tags/item/wooden_slabs.j
 82ef141f181c0b9eb4b19d0dc30bcfb14a2c1699 data/minecraft/tags/item/wooden_stairs.json
 36fc233ff3b8bd1d6483242e7ab944e79f398772 data/minecraft/tags/item/wooden_trapdoors.json
 51804c7aeaeb7f1957f900577e57efb9916e98bb data/mineraculous/tags/item/almond_logs.json
+28a2482421944402dd6f5efb95f4421648e48b5a data/mineraculous/tags/item/butterfly_food.json
 5e16042fc2fea0696cb1b5c7ddfa4ef4541270f6 data/mineraculous/tags/item/camembert.json
 e33b4a3a0f2bac4638bc9efb056fbb60dea2f917 data/mineraculous/tags/item/camembert_blocks.json
 93c6bbbfb269c495ba4d57c78f6cde83f9f160e3 data/mineraculous/tags/item/cataclysm_immune.json
+a4e8097fff07f9a74259d6b5dd583f3437ff28a2 data/mineraculous/tags/item/caterpillar_food.json
 b09bcebdb0ccf0881135b75d7a02b329c8c5ea1f data/mineraculous/tags/item/cheese.json
 82ac467c17adc2a0f94357722a1d42c5878bdd9f data/mineraculous/tags/item/cheese_blocks.json
 51c3bb23882955b044ee8035a7ebccb24b212190 data/mineraculous/tags/item/duplicating_disallowed.json
@@ -63,4 +65,4 @@ e6e6dcf50e2f3462b958afa5b238486c7a1e3764 data/mineraculous/tags/item/lucky_charm
 c94779daab7c65e5caa8e8b13fa8d447e5b3f169 data/mineraculous/tags/item/lucky_charms/warden_distractors.json
 30e4228e54a0431e873df23ac16d2aba5f13c736 data/mineraculous/tags/item/miraculous_transformers.json
 eabbcdca58d5ff070996dc2545d18736df60b071 data/mineraculous/tags/item/tough.json
-b32120abc83dcac37660dcb989e18cf8d936154e reports/tags/minecraft/item.json
+3e636a94901859d2839fc1494d16ef82c12e8fd1 reports/tags/minecraft/item.json

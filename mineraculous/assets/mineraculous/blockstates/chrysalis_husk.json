@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mineraculous:block/chrysalis_husk",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "mineraculous:block/chrysalis_husk"
+    },
+    "facing=south": {
+      "model": "mineraculous:block/chrysalis_husk",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mineraculous:block/chrysalis_husk",
+      "y": 270
+    }
+  }
+}

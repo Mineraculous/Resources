@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#mineraculous:spawns_butterflies",
+  "spawners": {
+    "type": "mineraculous:butterfly",
+    "maxCount": 10,
+    "minCount": 5,
+    "weight": 10
+  }
+}

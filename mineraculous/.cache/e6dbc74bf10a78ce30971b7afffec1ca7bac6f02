@@ -1,4 +1,4 @@
-// 1.21.1	2026-11-18T23:59:07.901839326	Item Models: mineraculous
+// 1.21.1	2026-11-25T21:13:29.831469683	Item Models: mineraculous
 cca095b6a27958d6b3007262c70d20a25991e7e0 assets/mineraculous/models/item/aged_camembert_block.json
 7fec058f58d6ba55530f9f5159c4495f6b45c1e8 assets/mineraculous/models/item/aged_camembert_block_slice1.json
 6eaec5427467be1dc3c7526d4ce3151b82c614a3 assets/mineraculous/models/item/aged_camembert_block_slice2.json
@@ -35,6 +35,7 @@ f91eef65f4ae8ecc0e1988602eea360346a00c0f assets/mineraculous/models/item/butterf
 77b72610237c7b2651bcf61b47520b007d427c05 assets/mineraculous/models/item/butterfly_cane_in_hand.json
 bd6039fc345916fbe4ea43d64e8783300fdc1903 assets/mineraculous/models/item/butterfly_cane_spyglass.json
 cd47ea3a1ad4d2fe5658a38c7158b759fec65e78 assets/mineraculous/models/item/butterfly_pottery_sherd.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/mineraculous/models/item/butterfly_spawn_egg.json
 651c5ec05d816e529159a18f881ff45f08a529d5 assets/mineraculous/models/item/cat_armor_trim_smithing_template.json
 4db2e6891fe671c933d567a6361bc768d123c172 assets/mineraculous/models/item/cat_banner_pattern.json
 b515d5fff15e838fcc9dc8218dccb9845b2722a9 assets/mineraculous/models/item/cat_pottery_sherd.json
@@ -43,7 +44,10 @@ e0f7b66a84e6588f01abbbce75b1803ffe5d46e2 assets/mineraculous/models/item/cat_sta
 c1af0d406dffda5bf4489b82bbbded9439a0523b assets/mineraculous/models/item/cat_staff_spyglass.json
 e719acc70499f9566b34ffadb1bff8b64a5e0fb6 assets/mineraculous/models/item/cataclysm_block.json
 73faff063bf24bfc9488d862914525b9a2ae97e5 assets/mineraculous/models/item/cataclysm_dust.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/mineraculous/models/item/caterpillar_spawn_egg.json
 ed614afb2c3a547eb0fd1031878584f618b75743 assets/mineraculous/models/item/cheese_pot.json
+e917267590f6e607ac46eb1bfa31fb344eb20b41 assets/mineraculous/models/item/chrysalis.json
+ebbf049af7538f5e1e98590947cf91dd2688aee4 assets/mineraculous/models/item/chrysalis_husk.json
 94bbe486b6bc451f652528bf0350694d520947b0 assets/mineraculous/models/item/exquisite_camembert_block.json
 5429ea817640e4151c8ee76f17d3ad9cd26eed70 assets/mineraculous/models/item/exquisite_camembert_block_slice1.json
 da1dee1d2d106f585ee4611a3af0d0d4fc01d6db assets/mineraculous/models/item/exquisite_camembert_block_slice2.json

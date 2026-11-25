@@ -11,14 +11,11 @@
       "conditions": [
         {
           "type": "mineraculous:target",
-          "invalid_ability_targets": {
+          "valid_ability_targets": {
             "type": "mineraculous:entity",
             "entity": {
-              "type": "minecraft:player"
+              "type": "#c:butterflies"
             }
-          },
-          "valid_ability_targets": {
-            "type": "mineraculous:entity"
           }
         }
       ]

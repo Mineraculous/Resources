@@ -1,4 +1,4 @@
-// 1.21.1	2026-11-18T23:59:07.900201225	Tags for minecraft:block mod id mineraculous
+// 1.21.1	2026-11-25T21:13:29.823196641	Tags for minecraft:block mod id mineraculous
 04982b4d1b1715548bbcdaa9a8c5fe01900231c9 data/c/tags/block/foods/cheese_blocks.json
 71010f2ee5b0d138554af5b0ee5c8764dc6f0fb1 data/c/tags/block/stripped_logs.json
 b4adf478a27203eca61ac049ed98802b55c09f2b data/c/tags/block/stripped_woods.json
@@ -25,8 +25,10 @@ f0bbced75f5bacfd7d4fcbb6c5568e69eb1920c7 data/minecraft/tags/block/wooden_slabs.
 51804c7aeaeb7f1957f900577e57efb9916e98bb data/mineraculous/tags/block/almond_logs.json
 e33b4a3a0f2bac4638bc9efb056fbb60dea2f917 data/mineraculous/tags/block/camembert_blocks.json
 db189e47f50c0318837961705d3b74bfebec819c data/mineraculous/tags/block/cataclysm_immune.json
+a4e8097fff07f9a74259d6b5dd583f3437ff28a2 data/mineraculous/tags/block/caterpillar_can_pupate_under.json
 82ac467c17adc2a0f94357722a1d42c5878bdd9f data/mineraculous/tags/block/cheese_blocks.json
+b147fcff5c0b4d72df1cb7809b063b2562180832 data/mineraculous/tags/block/chrysalis_can_attach_to.json
 773b3c38357413b08c91a8ac301a3a961c460095 data/mineraculous/tags/block/hibiscus_bushes.json
 2ceac272e8c1e808ba54303c638545e30ca8e5b3 data/mineraculous/tags/block/rinses.json
 b94dd23bb2e48b4ea084720085ceb72e012ade73 data/mineraculous/tags/block/unsafe_for_reversion_relocation.json
-3adcf987fd280d8d71bc7df8d434b040e7e9cacb reports/tags/minecraft/block.json
+b66df697f6eae44f71fcee71795ac7d37a37721e reports/tags/minecraft/block.json

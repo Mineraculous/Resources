@@ -1,0 +1,59 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "flora_and_fauna",
+  "description": "book.mineraculous.wiki.flora_and_fauna.butterflies.description",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "mineraculous:chrysalis"
+  },
+  "name": "book.mineraculous.wiki.flora_and_fauna.butterflies.name",
+  "pages": [
+    {
+      "type": "modonomicon:image",
+      "anchor": "",
+      "border": true,
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "images": [
+        "mineraculous:textures/modonomicon/wiki/flora_and_fauna/butterflies/overview.png"
+      ],
+      "text": "book.mineraculous.wiki.flora_and_fauna.butterflies.overview.text",
+      "title": "book.mineraculous.wiki.flora_and_fauna.butterflies.overview.title",
+      "use_legacy_rendering": false
+    },
+    {
+      "type": "modonomicon:image",
+      "anchor": "",
+      "border": true,
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "images": [
+        "mineraculous:textures/modonomicon/wiki/flora_and_fauna/butterflies/caterpillars.png"
+      ],
+      "text": "book.mineraculous.wiki.flora_and_fauna.butterflies.caterpillars.text",
+      "title": "book.mineraculous.wiki.flora_and_fauna.butterflies.caterpillars.title",
+      "use_legacy_rendering": false
+    },
+    {
+      "type": "modonomicon:image",
+      "anchor": "",
+      "border": true,
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "images": [
+        "mineraculous:textures/modonomicon/wiki/flora_and_fauna/butterflies/chrysalis.png"
+      ],
+      "text": "book.mineraculous.wiki.flora_and_fauna.butterflies.chrysalis.text",
+      "title": "book.mineraculous.wiki.flora_and_fauna.butterflies.chrysalis.title",
+      "use_legacy_rendering": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 2,
+  "x": 0,
+  "y": 0
+}

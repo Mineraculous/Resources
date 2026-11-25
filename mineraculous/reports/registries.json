@@ -55,6 +55,8 @@
     "mineraculous:blue_hibiscus_bush",
     "mineraculous:cataclysm_block",
     "mineraculous:cheese_pot",
+    "mineraculous:chrysalis",
+    "mineraculous:chrysalis_husk",
     "mineraculous:exquisite_camembert_block",
     "mineraculous:exquisite_cheese_block",
     "mineraculous:fresh_camembert_block",
@@ -82,6 +84,7 @@
     "mineraculous:waxed_time_honored_cheese_block"
   ],
   "minecraft:block_entity_type": [
+    "mineraculous:chrysalis",
     "mineraculous:oven"
   ],
   "minecraft:creative_mode_tab": [
@@ -128,6 +131,8 @@
     "mineraculous:kamikotization"
   ],
   "minecraft:entity_type": [
+    "mineraculous:butterfly",
+    "mineraculous:caterpillar",
     "mineraculous:controlled_player",
     "mineraculous:kamiko",
     "mineraculous:kwami",
@@ -165,13 +170,17 @@
     "mineraculous:butterfly_banner_pattern",
     "mineraculous:butterfly_cane",
     "mineraculous:butterfly_pottery_sherd",
+    "mineraculous:butterfly_spawn_egg",
     "mineraculous:cat_armor_trim_smithing_template",
     "mineraculous:cat_banner_pattern",
     "mineraculous:cat_pottery_sherd",
     "mineraculous:cat_staff",
     "mineraculous:cataclysm_block",
     "mineraculous:cataclysm_dust",
+    "mineraculous:caterpillar_spawn_egg",
     "mineraculous:cheese_pot",
+    "mineraculous:chrysalis",
+    "mineraculous:chrysalis_husk",
     "mineraculous:exquisite_camembert_block",
     "mineraculous:exquisite_camembert_wedge",
     "mineraculous:exquisite_cheese_block",
@@ -444,6 +453,12 @@
   "mineraculous:ability_task": [
     "mineraculous:replace_blocks"
   ],
+  "mineraculous:butterfly_variant": [
+    "mineraculous:cold",
+    "mineraculous:kamiko",
+    "mineraculous:temperate",
+    "mineraculous:warm"
+  ],
   "mineraculous:control_order": [
     "mineraculous:follow",
     "mineraculous:follow_and_attack",
@@ -558,9 +573,11 @@
   ],
   "neoforge:biome_modifier": [
     "mineraculous:add_common_almond_trees",
-    "mineraculous:add_rare_almond_trees"
+    "mineraculous:add_rare_almond_trees",
+    "mineraculous:spawn_butterflies"
   ],
   "neoforge:entity_data_serializers": [
+    "mineraculous:butterfly_variant",
     "mineraculous:control_order",
     "mineraculous:kamiko_owner_properties",
     "mineraculous:kamiko_replica_data",

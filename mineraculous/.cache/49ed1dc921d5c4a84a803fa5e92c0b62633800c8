@@ -1,4 +1,4 @@
-// 1.21.1	2026-11-18T23:59:07.89874098	Books: mineraculous
+// 1.21.1	2026-11-25T21:13:29.81911199	Books: mineraculous
 e5d3c3009f75719a06483fe31cf045ceac5bf73b data/mineraculous/modonomicon/books/wiki/book.json
 13f4f5c11b7a22bce1b97ccb863ca68cfddb2177 data/mineraculous/modonomicon/books/wiki/categories/apis.json
 427b002f1b668c606e0b2d4918fdfaacf8be6c10 data/mineraculous/modonomicon/books/wiki/categories/cosmetics.json
@@ -13,15 +13,16 @@ d738ed979b4f062b17c4335d4a9868d9dc7ded9e data/mineraculous/modonomicon/books/wik
 45bdeface00a9100e5ba060654c8e0738a5bfe8b data/mineraculous/modonomicon/books/wiki/categories/kamikotizations.json
 696e8faeeb75b92ffc5aebd8aad40125a613b796 data/mineraculous/modonomicon/books/wiki/categories/miraculouses.json
 d9480a204963717946a1e944825895eb5fa55b5c data/mineraculous/modonomicon/books/wiki/categories/support.json
-576917342a68384cbf8ce155fa367e2794029315 data/mineraculous/modonomicon/books/wiki/entries/apis/abilities.json
-5c45811d83cad6e8166164de9d85a637465d8b03 data/mineraculous/modonomicon/books/wiki/entries/apis/advancement_triggers.json
-0310f78baf218eb6a1866a8095477c5951723bf0 data/mineraculous/modonomicon/books/wiki/entries/apis/data_maps.json
+98979275ff431e7b3094f73e47432112f1b62aca data/mineraculous/modonomicon/books/wiki/entries/apis/abilities.json
+74e1ca0e8896397796a604f8aa95279e3bb62c47 data/mineraculous/modonomicon/books/wiki/entries/apis/advancement_triggers.json
+439ce224c7354fbffbd687da6deb39db9dce6527 data/mineraculous/modonomicon/books/wiki/entries/apis/butterfly_variants.json
+e12bee6ab0d54ee4b727e7caf96262cf01b5a9a3 data/mineraculous/modonomicon/books/wiki/entries/apis/data_maps.json
 a186b4604677fc1ef3683e3bdfa5ce56283d5a75 data/mineraculous/modonomicon/books/wiki/entries/apis/kamikotizations.json
 c3a6b6f7dc870201f6ca754d915493cc36cbc041 data/mineraculous/modonomicon/books/wiki/entries/apis/looks.json
-0910fd797db98df7233f793aa85959462adda289 data/mineraculous/modonomicon/books/wiki/entries/apis/loot.json
+fdb8b2428fb9fb276766b51d8186b5824dda2c16 data/mineraculous/modonomicon/books/wiki/entries/apis/loot.json
 dbece88e96b4d82c11bb771a40bf413f2fd5da45 data/mineraculous/modonomicon/books/wiki/entries/apis/miraculouses.json
-f7c1b3c958039e47a52f8088b779d140328302cf data/mineraculous/modonomicon/books/wiki/entries/apis/recipe_serializers.json
-44fc3468be892763e1a47d96640da81781c5b3cd data/mineraculous/modonomicon/books/wiki/entries/apis/tags.json
+bc53e5dd9c1d5d11841debaaa87414699cb01782 data/mineraculous/modonomicon/books/wiki/entries/apis/recipe_serializers.json
+9ee63da3143118cb44fb6caa57cb24cb949b815a data/mineraculous/modonomicon/books/wiki/entries/apis/tags.json
 024ec83755f18d0713376a74e8f08a6caf194763 data/mineraculous/modonomicon/books/wiki/entries/cosmetics/beta.json
 e3fb3ef8ab1a00b1a90a2ab74d8ee38ffb4aafa5 data/mineraculous/modonomicon/books/wiki/entries/cosmetics/dev.json
 0b4aaa4e4a68afcb2809973824c21ea47cd62de7 data/mineraculous/modonomicon/books/wiki/entries/decorations/armor_trims.json
@@ -34,6 +35,7 @@ d769db76391301a1bfb1395ef1333a43bc2e643d data/mineraculous/modonomicon/books/wik
 c4a84ff16a8ccf3fdbb292ebc1438f026fa7d605 data/mineraculous/modonomicon/books/wiki/entries/dependencies/voice_chat.json
 23af09e1a51096a0aa4d076d911157ac0099ba5a data/mineraculous/modonomicon/books/wiki/entries/expansions/akumatization.json
 ef08fd9e5ae65bbcffa94f5b350eb1437f22e71b data/mineraculous/modonomicon/books/wiki/entries/expansions/kamikotizations.json
+8ec01e57bf33548f6c375e39acef0602a9fb745d data/mineraculous/modonomicon/books/wiki/entries/flora_and_fauna/butterflies.json
 f9b1ba87f1157e993ce94b468c09869dc8419464 data/mineraculous/modonomicon/books/wiki/entries/flora_and_fauna/flowers.json
 3a2bfd02a04c804d4af979b9e1a7f87502ce3930 data/mineraculous/modonomicon/books/wiki/entries/flora_and_fauna/trees.json
 9f6c04f572f08c036ed40cff1394b59955cd50bf data/mineraculous/modonomicon/books/wiki/entries/food/almonds.json

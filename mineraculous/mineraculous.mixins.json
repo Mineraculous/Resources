@@ -20,6 +20,7 @@
     "minecraft.server.packs.repository.PackMixin",
     "minecraft.world.entity.EntityMixin",
     "minecraft.world.entity.LeashableMixin",
+    "minecraft.world.entity.TamableAnimalMixin",
     "minecraft.world.entity.MobMixin",
     "minecraft.world.entity.decoration.LeashFenceKnotEntityMixin",
     "minecraft.world.entity.player.InventoryMixin",

@@ -27,6 +27,17 @@
         "type": "modonomicon:none"
       },
       "show_title_separator": true,
+      "text": "book.mineraculous.wiki.apis.abilities.guide.text",
+      "title": "book.mineraculous.wiki.apis.abilities.guide.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
       "text": "book.mineraculous.wiki.apis.abilities.structure.text",
       "title": "book.mineraculous.wiki.apis.abilities.structure.title",
       "use_markdown_in_title": false

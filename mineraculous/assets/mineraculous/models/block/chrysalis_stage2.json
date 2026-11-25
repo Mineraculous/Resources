@@ -1,0 +1,8 @@
+{
+  "parent": "mineraculous:block/chrysalis",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "mineraculous:block/chrysalis/chrysalis_stage2",
+    "pupa": "mineraculous:block/chrysalis/chrysalis_stage2"
+  }
+}

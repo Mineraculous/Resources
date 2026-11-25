@@ -1,0 +1,85 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "chrysalis_stage2",
+		"pupa": "chrysalis_stage2"
+	},
+	"elements": [
+		{
+			"from": [6.7, 8, 12.35],
+			"to": [9.3, 11.5, 14.95],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9.75, 13.25]},
+			"faces": {
+				"north": {"uv": [0, 8, 2, 11], "texture": "#pupa", "tintindex": 0},
+				"east": {"uv": [5, 0, 7, 3], "texture": "#pupa", "tintindex": 0},
+				"south": {"uv": [2, 8, 4, 11], "texture": "#pupa", "tintindex": 0},
+				"west": {"uv": [5, 3, 7, 6], "texture": "#pupa", "tintindex": 0},
+				"up": {"uv": [8, 7, 10, 9], "texture": "#pupa", "tintindex": 0},
+				"down": {"uv": [9, 1, 11, 3], "texture": "#pupa", "tintindex": 0}
+			}
+		},
+		{
+			"from": [7, 5.75, 12.6],
+			"to": [9, 8, 14.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7.5, 14.1]},
+			"faces": {
+				"north": {"uv": [4, 7, 6, 9], "texture": "#pupa", "tintindex": 0},
+				"east": {"uv": [6, 7, 8, 9], "texture": "#pupa", "tintindex": 0},
+				"south": {"uv": [7, 1, 9, 3], "texture": "#pupa", "tintindex": 0},
+				"west": {"uv": [7, 4, 9, 6], "texture": "#pupa", "tintindex": 0},
+				"up": {"uv": [9, 3, 11, 5], "texture": "#pupa", "tintindex": 0},
+				"down": {"uv": [4, 9, 6, 11], "texture": "#pupa", "tintindex": 0}
+			}
+		},
+		{
+			"from": [8, 11.5, 12],
+			"to": [8, 15.5, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -0.5, 0]},
+			"faces": {
+				"east": {"uv": [0, 0, 4, 4], "texture": "#pupa", "tintindex": 0},
+				"west": {"uv": [0, 4, 4, 8], "texture": "#pupa", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, -3.25],
+			"scale": [0.52148, 0.52148, 0.52148]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0, -3.25],
+			"scale": [0.52148, 0.52148, 0.52148]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 1.5, -3.25],
+			"scale": [0.52148, 0.52148, 0.52148]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 1.5, -3.25],
+			"scale": [0.52148, 0.52148, 0.52148]
+		},
+		"ground": {
+			"translation": [0, 1.5, -3.25],
+			"scale": [0.52148, 0.52148, 0.52148]
+		},
+		"gui": {
+			"rotation": [-169.25, 47.25, -180],
+			"translation": [-5.75, -3, 0],
+			"scale": [1.42969, 1.42969, 1.42969]
+		},
+		"fixed": {
+			"translation": [0, 0, -8]
+		}
+	},
+	"groups": [
+		{
+			"name": "Pupa",
+			"origin": [8, 9.75, 13.25],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}
